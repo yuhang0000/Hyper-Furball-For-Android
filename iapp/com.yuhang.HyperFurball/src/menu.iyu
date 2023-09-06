@@ -1,0 +1,585 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+background=black</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=1440
+height=1080
+background=white</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/Gui/MenuWorld_backgroundFile1.png
+focusable=false</ppt>
+<event><eventItme type="clicki">//uigo("悬浮窗启动器.iyu")</eventItme></event>
+</View>
+<View id="8" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/Gui/MenuWorld_backgroundFile2.png</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=1440
+height=1080
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/Gui/Title_EN.png</ppt>
+<event></event>
+</View>
+<View id="10" did="2" type="LinearLayout">
+<ppt>width=1440
+height=1080
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/Gui/WhiteImage.png</ppt>
+<event></event>
+</View>
+<View id="18" did="2" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+layout_marginLeft=60
+layout_marginTop=400
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="LinearLayout">
+<ppt>width=100
+height=100
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="20" did="19" type="ImageView">
+<ppt>width=80
+height=80
+src=%HyperFurball/.data/Image/Gui/MenuWorld_Cursor.png</ppt>
+<event></event>
+</View>
+<View id="12" did="18" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+layout_marginLeft=20</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="TextView">
+<ppt>width=400
+height=100
+text=普通模式
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false</ppt>
+<event><eventItme type="touchmonitor">f(ss.key != false)
+{
+  ss key = false
+  ss 选择 = 1
+  sss 难度 = "普通"
+  us(19,"layout_margintop",0)
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(2600)
+    ufnsui()
+    {
+      uigo("开头.iyu")
+    }
+    stop(5000)
+    ufnsui()
+    {
+      end()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="14" did="12" type="TextView">
+<ppt>width=400
+height=100
+text=困难模式
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false</ppt>
+<event><eventItme type="touchmonitor">f(ss.key != false)
+{
+  ss key = false
+  ss 选择 = 2
+  sss 难度 = "困难"
+  us(19,"layout_margintop",100)
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(2600)
+    ufnsui()
+    {
+      uigo("开头.iyu")
+    }
+    stop(5000)
+    ufnsui()
+    {
+      end()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="15" did="12" type="TextView">
+<ppt>width=400
+height=100
+text=点唱机
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical</ppt>
+<event><eventItme type="touchmonitor">f(ss.key != false)
+{
+  ss key = false
+  ss 选择 = 3
+  us(19,"layout_margintop",200)
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(2600)
+    ufnsui()
+    {
+      uigo("点唱机.iyu")
+    }
+    stop(5000)
+    ufnsui()
+    {
+      end()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="16" did="12" type="TextView">
+<ppt>width=400
+height=100
+text=摸鱼时间
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false</ppt>
+<event><eventItme type="touchmonitor">f(ss.key != false)
+{
+  ss key = false
+  ss 选择 == 4
+  us(19,"layout_margintop",300)
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(2600)
+    ufnsui()
+    {
+      uigo("摸鱼时间.iyu")
+    }
+    stop(5000)
+    ufnsui()
+    {
+      end()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="17" did="12" type="TextView">
+<ppt>width=400
+height=100
+text=设置
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false</ppt>
+<event><eventItme type="touchmonitor">f(ss.key != false)
+{
+  ss key = false
+  ss 选择 = 5
+  us(19,"layout_margintop",400)
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  /.dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(2600)
+    ufnsui()
+    {
+      uigo("摸鱼时间.iyu")
+    }
+    stop(5000)
+    ufnsui()
+    {
+      end()
+    }
+  }
+  ./
+}</eventItme></event>
+</View>
+<View id="21" did="2" type="TextView">
+<ppt>width=-1
+height=-1
+text=Version:0.0.1\nProgramming and Music by DDRKirby(ISQ)\nArt by xellaya / JP translation by:A-zu-ra\nAndroid version and CN translation by yuhang0000
+typeface=@Fonts/Pixel.ttf
+textSize=11
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=5
+gravity=center_horizontal|bottom
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//初始化
+lan(0)
+uycl("#00000000", false)
+uycl(true)
+ushsp(true)
+ss("Version:"+sss.版本+"\nProgramming and Music by DDRKirby(ISQ)\nArt by xellaya / JP translation by:A-zu-ra\nAndroid version and CN translation by yuhang0000",版本)
+us(21,"text",版本)
+//tw(sss.set_载入等待时间)
+f(sss.set_载入等待时间 == null)
+{
+  sss set_载入等待时间 = 1200
+}
+
+//进入
+ss 选择 = 1
+dhas(dh,2,"alpha",0)
+dh(dh,"duration",0)
+dh(dh,"start")
+t()
+{
+stop(sss.set_载入等待时间)
+bfm("%HyperFurball/.data/media/Meow！",sss.m_主菜单)
+bfms(sss.m_主菜单,"st")
+bfms(sss.m_主菜单,"sl",true)
+ufnsui()
+{
+dhas(dh,2,"alpha",0,1)
+dh(dh,"duration",1000)
+dh(dh,"start")
+}
+}
+t()
+{
+  s+(sss.set_载入等待时间,850,a2333)
+  stop(a2333)
+  ufnsui()
+  {
+   dhas(dh,8,"translationX",-1440,0)
+   dh(dh,"duration",700)
+   dh(dh,"start")
+   us(8,"visibility","visible")
+  }
+  stop(700)
+  ufnsui()
+  {
+    dhas(dh,10,"alpha",0,1,0)
+    dh(dh,"duration",400)
+    dh(dh,"start")
+    us(10,"visibility","visible")
+  }
+  stop(200)
+  ufnsui()
+  {
+    us(6,"visibility","visible")
+    us(18,"visibility","visible")
+    us(21,"visibility","visible")
+  }
+  ug(6,"visibility",a1a)
+  f(a1a != "visible")
+  {
+    ufnsui()
+    {
+    us(6,"visibility","visible")
+    us(18,"visibility","visible")
+    us(21,"visibility","visible")
+    }
+  }
+}</eventItme><eventItme type="stop">bfms(sss.m_主菜单,"pe")</eventItme><eventItme type="restart">bfms(sss.m_主菜单,"st")</eventItme><eventItme type="downkey">f(ss.key != false)
+{
+  ss key = false
+  
+  //往上
+f(st_kC == 19)
+{
+  f(ss.选择 == 1)
+  {
+    bfm("%HyperFurball/.data/media/Gui/Cursor",ss.sfx)
+    ss 选择 = 5
+    us(19,"layout_margintop",400)
+  }
+  else
+  {
+    s(ss.选择 - 1,ss.选择)
+    ug(19,"layout_margintop",yyy)
+    s(yyy - 100,yyy)
+    us(19,"layout_margintop",yyy)
+    bfm("%HyperFurball/.data/media/Gui/Cursor",ss.sfx)
+  }
+}
+//往下
+f(st_kC == 20)
+{
+  f(ss.选择 == 5)
+  {
+    bfm("%HyperFurball/.data/media/Gui/Cursor",ss.sfx)
+    ss 选择 = 1
+    us(19,"layout_margintop",0)
+  }
+  else
+  {
+    s(ss.选择 + 1,ss.选择)
+    ug(19,"layout_margintop",yyy)
+    s(yyy + 100,yyy)
+    us(19,"layout_margintop",yyy)
+    bfm("%HyperFurball/.data/media/Gui/Cursor",ss.sfx)
+  }
+}
+//主菜单_选择
+f(st_kC == 62 || st_kC == 66 || st_kC == 149)
+{
+  
+  f(ss.选择 == 1)
+  {
+    f(ss.key1 != false)
+  {
+  ss key1 = false
+  ss key = false
+  sss 难度 = "普通"
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(2600)
+    ufnsui()
+    {
+      uigo("开头.iyu")
+    }
+    stop(5000)
+    ufnsui()
+    {
+      end()
+    }
+  }
+  }
+  }
+  
+  f(ss.选择 == 2)
+  {
+    f(ss.key1 != false)
+  {
+  ss key1 = false
+  ss key = false
+  sss 难度 = "困难"
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(2600)
+    ufnsui()
+    {
+      uigo("开头.iyu")
+    }
+    stop(5000)
+    ufnsui()
+    {
+      end()
+    }
+  }
+  }
+  }
+  
+  f(ss.选择 == 3)
+  {
+    f(ss.key1 != false)
+  {
+  ss key1 = false
+  ss key = false
+  sss 难度 = "困难"
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(2600)
+    ufnsui()
+    {
+      uigo("点唱机.iyu")
+    }
+    stop(5000)
+    ufnsui()
+    {
+      end()
+    }
+  }
+  }
+  }
+  
+  f(ss.选择 == 4)
+  {
+    f(ss.key1 != false)
+  {
+  ss key1 = false
+  ss key = false
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(2600)
+    ufnsui()
+    {
+      uigo("摸鱼时间.iyu")
+    }
+    stop(5000)
+    ufnsui()
+    {
+      end()
+    }
+  }
+  }
+  }
+  
+  f(ss.选择 == 4)
+  {
+    
+  }
+  
+}
+
+}</eventItme><eventItme type="upkey">f(st_kC == 4 || st_kC == 111)
+{
+
+f(ss.key1 != false)
+{
+  ss key1 = false
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(3000)
+    ufnsui()
+    {
+      end()
+      ends()
+    }
+  }
+}
+
+}
+else
+{
+  ss key == false
+}</eventItme><eventItme type="menu">case 更新记录:
+fr("@Updata.txt",Updata)
+utw(17301569,"更新记录",Updata,"关闭",true,v)
+{
+}
+break
+
+case 关于:
+utw(17301569,"关于","欢迎。\n这是Hyper Furball的安卓版本，基于iapp编译，由于与原版Flash所运行的架构不一样，移植至安卓相当于从头开始写游戏，工程量太大，\n(•́ω•̀ ٥)\n但尽量保持原版原汁原味的玩法与内容，顺便做本土化工作，祝您玩的开心？\n \n一个友善的提醒，本游戏没有广告和付费内容，如果你碰到了，那就说明你下载了盗版，不保证它是否还带有病毒，所以请尽量在我的B站动态所提供的链接下载。\n \n另外有能力的话，尽量在原作者的官网上支持原版。\n \n原作者:DDRkirby(ISQ)和xellaya\n日文翻译:A-zu-ra\n中文翻译:yuhang0000\n移植:yuhang0000\n \nFirst build time:2023-05-19 05:34:26","来我的B站主页看看？","访问原作者DDRkirby(ISQ)官网","关闭",true,v)
+{
+  hws("https://space.bilibili.com/291050629")
+}
+else
+{
+  hws("https://www.ddrkirby.com/")
+}
+else
+{
+}
+break
+
+case 退出:
+f(ss.key1 != false)
+{
+  ss key1 = false
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  dhas(dh, 2, "alpha",1,0)
+  dh(dh, "duration", 2500)
+  dh(dh, "start")
+  bfms(sss.m_主菜单,"sp")
+  t()
+  {
+    stop(3000)
+    ufnsui()
+    {
+      end()
+      ends()
+    }
+  }
+}
+break</eventItme></UIEventset>

@@ -1,0 +1,499 @@
+<View id="6" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=black</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=1440
+height=1080
+background=white</ppt>
+<event></event>
+</View>
+<View id="9" did="2" type="LinearLayout">
+<ppt>ps=背景1
+width=2880
+height=1080
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/1.png</ppt>
+<event></event>
+</View>
+<View id="11" did="9" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/2.png</ppt>
+<event></event>
+</View>
+<View id="12" did="2" type="LinearLayout">
+<ppt>ps=背景2
+width=2880
+height=1080
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/1.png</ppt>
+<event></event>
+</View>
+<View id="14" did="12" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/2.png</ppt>
+<event></event>
+</View>
+<View id="19" did="2" type="LinearLayout">
+<ppt>ps=Furball
+width=275
+height=130
+orientation=vertical
+layout_margintop=834
+layout_marginleft=-280</ppt>
+<event></event>
+</View>
+<View id="18" did="19" type="GifView">
+<ppt>width=275
+height=130
+src=%HyperFurball/.data/Image/Furball/Walk.gif</ppt>
+<event></event>
+</View>
+<View id="15" did="2" type="LinearLayout">
+<ppt>ps=背景3
+width=2880
+height=1080
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/1.png</ppt>
+<event></event>
+</View>
+<View id="17" did="15" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/2.png</ppt>
+<event></event>
+</View>
+<View id="20" did="2" type="TextView">
+<ppt>width=800
+height=200
+text=By:DDRKirby(ISQ)
+typeface=@Fonts/Pixel.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=5
+gravity=center
+layout_margintop=210
+layout_marginleft=0
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="2" type="TextView">
+<ppt>width=800
+height=200
+text=Art:xellaya
+typeface=@Fonts/Pixel.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=5
+gravity=center
+layout_margintop=315
+layout_marginleft=290
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="22" did="2" type="TextView">
+<ppt>width=800
+height=200
+text=Transplant:yuhang0000
+typeface=@Fonts/Pixel.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=5
+gravity=center
+layout_margintop=450
+layout_marginleft=600
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>ps=轻触开始
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=black
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=Loading...
+textColor=#ffffff
+textSize=30
+typeface=@Fonts/Pixel.ttf</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=初始化...
+textColor=#ffffff
+textSize=20
+typeface=@Fonts/JP&CN.ttf</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+visibility=gone
+focusable=false</ppt>
+<event><eventItme type="clicki">us(31,"text","开始")</eventItme></event>
+</View>
+<View id="27" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+ps=Oops！
+orientation=vertical
+gravity=center
+background=black
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="23" did="27" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=left
+background=through</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="ImageView">
+<ppt>width=200
+height=200
+src=17301624
+layout_marginBottom=0
+layout_marginleft=0</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=Oops！
+textColor=#ffffff
+textSize=30
+layout_marginLeft=0</ppt>
+<event></event>
+</View>
+<View id="26" did="23" type="TextView">
+<ppt>width=-2
+height=-2
+text=抱歉，遇到了错误的信息，你可能需要重新运行此软件。\n错误信息：未知的错误\n解决措施：¯\_(ツ)_/¯
+textColor=#ffffff
+textSize=20
+layout_marginLeft=100
+layout_marginTop=50</ppt>
+<event></event>
+</View>
+<View id="29" did="23" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="28" did="29" type="TextView">
+<ppt>width=400
+height=200
+text=确定
+gravity=center
+textColor=#ffffff
+textSize=20</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="30" did="29" type="TextView">
+<ppt>width=400
+height=200
+text=继续
+gravity=center
+textColor=#ffffff
+textSize=20</ppt>
+<event><eventItme type="clicki">us(7,"visibility","visible")
+us(27,"visibility","gone")
+us(5,"text","Click to start")
+us(4,"text","戳一下就开始了")</eventItme></event>
+</View>
+<View id="32" did="29" type="TextView">
+<ppt>width=400
+height=200
+text=重试
+gravity=center
+textColor=#ffffff
+textSize=20</ppt>
+<event><eventItme type="clicki">us(27,"visibility","gone")
+//解压资源
+fuzs("@Data.zip","%HyperFurball/.data/",true,zip)
+//更新配置文档
+fr("@Setting.ini",Setting)
+time(5,playtime)
+ss("&lt;首次游玩&gt;" + playtime + "&lt;首次游玩/&gt;",playtime)
+sr(Setting,"&lt;首次游玩&gt;&lt;首次游玩/&gt;",playtime,Setting)
+ss("&lt;版本&gt;" + sss.版本 + "&lt;版本/&gt;",ver)
+sr(Setting,"&lt;版本&gt;&lt;版本/&gt;",ver,Setting)
+sss Setting = Setting
+fe("%HyperFurball/.data/Image/Furball/Walk.gif",areyouok?)
+f(areyouok? == true)
+{
+us(18,"src","%HyperFurball/.data/Image/Furball/Walk.gif")
+us(16,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/1.png")
+us(17,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/2.png")
+us(13,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/1.png")
+us(14,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/2.png")
+us(10,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/1.png")
+us(11,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/2.png")
+ss key = true
+us(7,"visibility","visible")
+us(5,"text","Click to start")
+us(4,"text","戳一下就开始了")
+fw("%HyperFurball/Setting.ini",Setting)
+}
+else
+{
+us(27,"visibility","visible")
+us(26,"text","抱歉，遇到了错误的信息，你可能需要重新运行此软件。\n错误信息：无法释放资源\n解决措施：检查你是否授予储存权限")
+}</eventItme></event>
+</View>
+<View id="31" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始
+visibility=gone</ppt>
+<event><eventItme type="ontextchanged">bfm("%HyperFurball/.data/media/Intro World",sss.BGM)
+urvw(7)
+us(5,"visibility","gone")
+us(4,"visibility","gone")
+dhas(dh,3,"alpha",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1)
+dh(dh,"duration",3800)
+dh(dh,"start")
+t()
+{
+  stop(200)
+  ufnsui()
+  {
+    us(20,"visibility","visible")
+    dhas(dh1,20,"translationX",-50,0,0,50)
+    dh(dh1,"duration",2000)
+    dh(dh1,"start")
+    dhas(dh2,20,"alpha",0,1,1,0)
+    dh(dh2,"duration",2000)
+    dh(dh2,"start")
+  }
+}
+t()
+{
+  stop(1000)
+  ufnsui()
+  {
+    us(21,"visibility","visible")
+    dhas(dh3,21,"translationX",-50,0,0,50)
+    dh(dh3,"duration",2000)
+    dh(dh3,"start")
+    dhas(dh4,21,"alpha",0,1,1,0)
+    dh(dh4,"duration",2000)
+    dh(dh4,"start")
+  }
+}
+t()
+{
+  stop(1700)
+  ufnsui()
+  {
+    us(22,"visibility","visible")
+    dhas(dh5,22,"translationX",-50,0,0,50)
+    dh(dh5,"duration",2000)
+    dh(dh5,"start")
+    dhas(dh6,22,"alpha",0,1,1,0)
+    dh(dh6,"duration",2000)
+    dh(dh6,"start")
+  }
+}
+t()
+{
+  w(ss.持续隐藏状态栏 != false)
+  {
+    ug(19,"layout_marginleft",xx)
+    s(xx+10,xxx)
+    ufnsui()
+    {
+      us(19,"layout_marginleft",xxx)
+    }
+    stop(15)
+  }
+}
+t()
+{
+  stop(3800)
+  ufnsui()
+  {
+    uigo("menu.iyu")
+    //end()
+    ss 持续隐藏状态栏 == false
+  }
+}
+t()
+{
+  stop(7000)
+  ufnsui()
+  {
+    us(27,"visibility","visible")
+    us(26,"text","抱歉，遇到了错误的信息，你可能需要重新运行此软件。\n错误信息：未知\n解决措施：我不知道啊")
+  }
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//初始化
+lan(0)
+uycl("#00000000", false)
+uycl(true)
+ushsp(true)
+
+sss 版本 = "0.0.7"
+//是否初次使用
+fe("%HyperFurball/Setting.ini",areyouok)
+f(areyouok == false)
+{
+  //解压资源
+  fuzs("@Image.zip","%HyperFurball/.data/",true,zip)
+  fuzs("@Media.zip","%HyperFurball/.data/",true,zip)
+  //更新配置文档
+  fr("@Setting.ini",Setting)
+  time(5,playtime)
+  ss("&lt;首次游玩&gt;" + playtime + "&lt;首次游玩/&gt;",playtime)
+  sr(Setting,"&lt;首次游玩&gt;&lt;首次游玩/&gt;",playtime,Setting)
+  ss("&lt;版本&gt;" + sss.版本 + "&lt;版本/&gt;",ver)
+  sr(Setting,"&lt;版本&gt;&lt;版本/&gt;",ver,sss.Setting)
+  fe("%HyperFurball/.data/Image/Furball/Walk.gif",areyouok1)
+  f(areyouok1 == true)
+  {
+    us(18,"src","%HyperFurball/.data/Image/Furball/Walk.gif")
+    us(16,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/1.png")
+    us(17,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/2.png")
+    us(13,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/1.png")
+    us(14,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/2.png")
+    us(10,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/1.png")
+    us(11,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/2.png")
+    ss key = true
+    us(7,"visibility","visible")
+    us(5,"text","Click to start")
+    us(4,"text","戳一下就开始了")
+    fw("%HyperFurball/Setting.ini",sss.Setting)
+  }
+  else
+  {
+    us(27,"visibility","visible")
+    us(26,"text","抱歉，遇到了错误的信息，你可能需要重新运行此软件。\n错误信息：无法释放资源\n解决措施：检查你是否授予储存权限")
+  }
+}
+//检查版本
+else
+{
+  //资源很正常
+  fr("%HyperFurball/Setting.ini",sss.Setting)
+  sj(sss.Setting,"&lt;版本&gt;","&lt;版本/&gt;",ver)
+  sj(sss.Setting,"&lt;通关次数&gt;","&lt;通关次数/&gt;",sss.set_通关次数)
+  sj(sss.Setting,"&lt;语言&gt;","&lt;语言/&gt;",sss.set_语言)
+  sj(sss.Setting,"&lt;自动悬浮窗&gt;","&lt;自动悬浮窗/&gt;",sss.set_自动悬浮窗)
+  sj(sss.Setting,"&lt;HD&gt;","&lt;HD/&gt;",sss.set_HD)
+  sj(sss.Setting,"&lt;宽屏修复&gt;","&lt;宽屏修复/&gt;",sss.set_宽屏修复)
+  sj(sss.Setting,"&lt;缩放&gt;","&lt;缩放/&gt;",sss.set_缩放)
+  sj(sss.Setting,"&lt;背景优化&gt;","&lt;背景优化/&gt;",sss.set_背景优化)
+  sj(sss.Setting,"&lt;载入等待时间&gt;","&lt;载入等待时间/&gt;",sss.set_载入等待时间)
+  sj(sss.Setting,"&lt;随机背景切换时间&gt;","&lt;随机背景切换时间/&gt;",sss.set_随机背景切换时间)
+  f(ver == sss.版本)
+  {
+    ss key = true
+    us(7,"visibility","visible")
+    us(5,"text","Click to start")
+    us(4,"text","戳一下就开始了")
+  }
+  else
+  {
+    //发现资源过旧
+    //解压特定资源
+    f(sss.set_HD == true)
+    {
+      ss Image_version = "@Image_HD.zip"
+    }
+    else
+    {
+      ss Image_version = "@Image.zip"
+    }
+    fuzs(ss.Image_version,"%HyperFurball/.data/",true,zip)
+    fuzs("@Media.zip","%HyperFurball/.data/",true,zip)
+    ss("&lt;版本&gt;" + ver + "&lt;版本/&gt;",ver)
+    ss("&lt;版本&gt;" + sss.版本 + "&lt;版本/&gt;",vers)
+    sr(sss.Setting,ver,vers,sss.Setting)
+     f(zip == true)
+     {
+       us(18,"src","%HyperFurball/.data/Image/Furball/Walk.gif")
+       us(16,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/1.png")
+       us(17,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/2.png")
+       us(13,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/1.png")
+       us(14,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/2.png")
+       us(10,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/1.png")
+       us(11,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/2.png")
+       ss key = true
+       us(7,"visibility","visible")
+       us(5,"text","Click to start")
+       us(4,"text","戳一下就开始了")
+       fw("%HyperFurball/Setting.ini",sss.Setting)
+     }
+     else
+     {
+       us(27,"visibility","visible")
+       us(26,"text","抱歉，遇到了错误的信息，你可能需要重新运行此软件。\n错误信息：无法释放资源\n解决措施：检查你是否授予储存权限")
+       tw(2)
+     }
+  }
+}
+
+
+//自动隐藏状态栏
+t()
+{
+w(ss.持续隐藏状态栏!=false)
+{
+stop(7500)
+ufnsui()
+{
+uycl(true)
+}
+}
+}
+</eventItme><eventItme type="restart">end()</eventItme><eventItme type="upkey">f(st_kC == 62 || st_kC == 66 || st_kC == 149)
+{
+f(ss.key == true)
+{
+  
+  us(31,"text","开始")
+  
+}
+}</eventItme></UIEventset>
