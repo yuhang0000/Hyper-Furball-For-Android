@@ -10,7 +10,7 @@ Language：[中文](Readme.md)/[日本語](Readme_JP.md)/[English](Readme_EN.md)
 
 <br>
 
-  This is a transplant project, transplanted from [DDRKirby(ISQ)](https://www.ddrkirby.com/)'s [Hyper Furball](https://ddrkirby.com/games/hyper-furball/hyper-furball.html)  Flash games，but Flash is not supported on android devices，So I just `voluntarily` `gratis` (It's just for fun, actually HAHAHA)Migrate the project。
+  This is a transplant project, transplanted from [DDRKirby(ISQ)](https://www.ddrkirby.com/)'s [Hyper Furball](https://ddrkirby.com/games/hyper-furball/hyper-furball.html)  Flash games，but Flash is not supported on android devices，So I just `voluntarily` `gratis` (It's just for fun, actually HAHAHA) Migrate the project。
 
 <br>
 
