@@ -1,0 +1,2336 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=black</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>width=1440
+height=1080
+background=white</ppt>
+<event></event>
+</View>
+<View id="31" did="3" type="RelativeLayout">
+<ppt>width=8640
+height=1080</ppt>
+<event></event>
+</View>
+<View id="75" did="31" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景1
+orientation=horizontal
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="76" did="75" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/3.png</ppt>
+<event></event>
+</View>
+<View id="77" did="75" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/4.png</ppt>
+<event></event>
+</View>
+<View id="78" did="75" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/1.png</ppt>
+<event></event>
+</View>
+<View id="79" did="75" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/2.png</ppt>
+<event></event>
+</View>
+<View id="80" did="75" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/3.png</ppt>
+<event></event>
+</View>
+<View id="81" did="75" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/4.png</ppt>
+<event></event>
+</View>
+<View id="68" did="31" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景1
+orientation=horizontal
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/3.png</ppt>
+<event></event>
+</View>
+<View id="70" did="68" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/4.png</ppt>
+<event></event>
+</View>
+<View id="71" did="68" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/1.png</ppt>
+<event></event>
+</View>
+<View id="72" did="68" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/2.png</ppt>
+<event></event>
+</View>
+<View id="73" did="68" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/3.png</ppt>
+<event></event>
+</View>
+<View id="74" did="68" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/4.png</ppt>
+<event></event>
+</View>
+<View id="4" did="31" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/3.png</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/4.png</ppt>
+<event></event>
+</View>
+<View id="7" did="4" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/1.png</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/2.png</ppt>
+<event></event>
+</View>
+<View id="9" did="4" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/3.png</ppt>
+<event></event>
+</View>
+<View id="61" did="4" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/4.png</ppt>
+<event></event>
+</View>
+<View id="53" did="31" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景1
+orientation=horizontal
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="54" did="53" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/3.png</ppt>
+<event></event>
+</View>
+<View id="55" did="53" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/4.png</ppt>
+<event></event>
+</View>
+<View id="56" did="53" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/1.png</ppt>
+<event></event>
+</View>
+<View id="57" did="53" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/2.png</ppt>
+<event></event>
+</View>
+<View id="58" did="53" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/3.png</ppt>
+<event></event>
+</View>
+<View id="60" did="53" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/4.png</ppt>
+<event></event>
+</View>
+<View id="32" did="3" type="RelativeLayout">
+<ppt>width=8640
+height=1080</ppt>
+<event></event>
+</View>
+<View id="89" did="32" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/3.png</ppt>
+<event></event>
+</View>
+<View id="91" did="89" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/4.png</ppt>
+<event></event>
+</View>
+<View id="92" did="89" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/1.png</ppt>
+<event></event>
+</View>
+<View id="93" did="89" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/2.png</ppt>
+<event></event>
+</View>
+<View id="94" did="89" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/3.png</ppt>
+<event></event>
+</View>
+<View id="95" did="89" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/4.png</ppt>
+<event></event>
+</View>
+<View id="82" did="32" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="83" did="82" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/3.png</ppt>
+<event></event>
+</View>
+<View id="84" did="82" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/4.png</ppt>
+<event></event>
+</View>
+<View id="85" did="82" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/1.png</ppt>
+<event></event>
+</View>
+<View id="86" did="82" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/2.png</ppt>
+<event></event>
+</View>
+<View id="87" did="82" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/3.png</ppt>
+<event></event>
+</View>
+<View id="88" did="82" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/4.png</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/3.png</ppt>
+<event></event>
+</View>
+<View id="35" did="33" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/4.png</ppt>
+<event></event>
+</View>
+<View id="36" did="33" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/1.png</ppt>
+<event></event>
+</View>
+<View id="37" did="33" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/2.png</ppt>
+<event></event>
+</View>
+<View id="38" did="33" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/3.png</ppt>
+<event></event>
+</View>
+<View id="63" did="33" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/4.png</ppt>
+<event></event>
+</View>
+<View id="11" did="32" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="12" did="11" type="ImageView">
+<ppt>width=1440
+height=1080
+src=0</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="ImageView">
+<ppt>width=1440
+height=1080
+src=0</ppt>
+<event></event>
+</View>
+<View id="14" did="11" type="ImageView">
+<ppt>width=1440
+height=1080
+src=0</ppt>
+<event></event>
+</View>
+<View id="15" did="11" type="ImageView">
+<ppt>width=1440
+height=1080
+src=0</ppt>
+<event></event>
+</View>
+<View id="16" did="11" type="ImageView">
+<ppt>width=1440
+height=1080
+src=0</ppt>
+<event></event>
+</View>
+<View id="62" did="11" type="ImageView">
+<ppt>width=1440
+height=1080
+src=0</ppt>
+<event></event>
+</View>
+<View id="39" did="3" type="RelativeLayout">
+<ppt>width=8640
+height=1080</ppt>
+<event></event>
+</View>
+<View id="103" did="39" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景3
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="104" did="103" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/3.png</ppt>
+<event></event>
+</View>
+<View id="105" did="103" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/4.png</ppt>
+<event></event>
+</View>
+<View id="106" did="103" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/1.png</ppt>
+<event></event>
+</View>
+<View id="107" did="103" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/2.png</ppt>
+<event></event>
+</View>
+<View id="108" did="103" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/3.png</ppt>
+<event></event>
+</View>
+<View id="109" did="103" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/4.png</ppt>
+<event></event>
+</View>
+<View id="96" did="39" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景3
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/3.png</ppt>
+<event></event>
+</View>
+<View id="98" did="96" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/4.png</ppt>
+<event></event>
+</View>
+<View id="99" did="96" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/1.png</ppt>
+<event></event>
+</View>
+<View id="100" did="96" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/2.png</ppt>
+<event></event>
+</View>
+<View id="101" did="96" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/3.png</ppt>
+<event></event>
+</View>
+<View id="102" did="96" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/4.png</ppt>
+<event></event>
+</View>
+<View id="17" did="39" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景3
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/3.png</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/4.png</ppt>
+<event></event>
+</View>
+<View id="20" did="17" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/1.png</ppt>
+<event></event>
+</View>
+<View id="21" did="17" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/2.png</ppt>
+<event></event>
+</View>
+<View id="22" did="17" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/3.png</ppt>
+<event></event>
+</View>
+<View id="65" did="17" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/4.png</ppt>
+<event></event>
+</View>
+<View id="41" did="39" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景3
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/3.png</ppt>
+<event></event>
+</View>
+<View id="43" did="41" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/4.png</ppt>
+<event></event>
+</View>
+<View id="44" did="41" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/1.png</ppt>
+<event></event>
+</View>
+<View id="45" did="41" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/2.png</ppt>
+<event></event>
+</View>
+<View id="46" did="41" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/3.png</ppt>
+<event></event>
+</View>
+<View id="64" did="41" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/4.png</ppt>
+<event></event>
+</View>
+<View id="29" did="3" type="GifView">
+<ppt>width=275
+height=130
+src=%HyperFurball/.data/Image/Furball/walk.gif
+layout_margintop=820
+layout_marginleft=560
+visibility=gone</ppt>
+<event><eventItme type="touchmonitor">f(st_eA == 1)
+{
+
+f(ss.meow != true)
+{
+  ss meow = true
+  us(29,"src","%HyperFurball/.data/Image/Furball/meow.gif")
+  t()
+  {
+    stop(500)
+    ufnsui()
+    {
+      us(29,"src","%HyperFurball/.data/Image/Furball/walk.gif")
+    }
+    ss meow = false
+  }
+}
+f(ss.meow1 != true)
+{
+ss meow1 = true
+bfms(ss.sfx,"sp")
+bfm("%HyperFurball/.data/media/Sfx/Meow",ss.sfx)
+t()
+{
+  stop(50)
+  ss meow1 = false
+}
+}
+
+}</eventItme><eventItme type="press">/.
+ss 退出1 = true
+t()
+{
+  stop(500)
+  end()
+}</eventItme></event>
+</View>
+<View id="40" did="3" type="RelativeLayout">
+<ppt>width=8640
+height=1080</ppt>
+<event></event>
+</View>
+<View id="110" did="40" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景4
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="111" did="110" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/3.png</ppt>
+<event></event>
+</View>
+<View id="112" did="110" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/4.png</ppt>
+<event></event>
+</View>
+<View id="113" did="110" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/1.png</ppt>
+<event></event>
+</View>
+<View id="114" did="110" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/2.png</ppt>
+<event></event>
+</View>
+<View id="115" did="110" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/3.png</ppt>
+<event></event>
+</View>
+<View id="116" did="110" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/4.png</ppt>
+<event></event>
+</View>
+<View id="117" did="40" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景4
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="118" did="117" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/3.png</ppt>
+<event></event>
+</View>
+<View id="119" did="117" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/4.png</ppt>
+<event></event>
+</View>
+<View id="120" did="117" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/1.png</ppt>
+<event></event>
+</View>
+<View id="121" did="117" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/2.png</ppt>
+<event></event>
+</View>
+<View id="122" did="117" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/3.png</ppt>
+<event></event>
+</View>
+<View id="123" did="117" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/4.png</ppt>
+<event></event>
+</View>
+<View id="23" did="40" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景4
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="24" did="23" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/3.png</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/4.png</ppt>
+<event></event>
+</View>
+<View id="26" did="23" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/1.png</ppt>
+<event></event>
+</View>
+<View id="27" did="23" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/2.png</ppt>
+<event></event>
+</View>
+<View id="28" did="23" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/3.png</ppt>
+<event></event>
+</View>
+<View id="67" did="23" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/4.png</ppt>
+<event></event>
+</View>
+<View id="47" did="40" type="LinearLayout">
+<ppt>width=8640
+height=1080
+ps=背景4
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="48" did="47" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/3.png</ppt>
+<event></event>
+</View>
+<View id="49" did="47" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/4.png</ppt>
+<event></event>
+</View>
+<View id="50" did="47" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/1.png</ppt>
+<event></event>
+</View>
+<View id="51" did="47" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/2.png</ppt>
+<event></event>
+</View>
+<View id="52" did="47" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/3.png</ppt>
+<event></event>
+</View>
+<View id="66" did="47" type="ImageView">
+<ppt>width=1440
+height=1080
+src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/4.png</ppt>
+<event></event>
+</View>
+<View id="134" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#66000000</ppt>
+<event></event>
+</View>
+<View id="59" did="134" type="TextView">
+<ppt>width=-1
+height=-2
+text=" 点唱机 "
+typeface=@Fonts/JP&CN.ttf
+textSize=18
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=center_horizontal
+layout_marginTop=100
+</ppt>
+<event></event>
+</View>
+<View id="138" did="134" type="LinearLayout">
+<ppt>width=-1
+height=612
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="124" did="138" type="TextView">
+<ppt>width=-1
+height=60
+text=Meow！
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=center_horizontal
+layout_marginTop=50
+padding=4</ppt>
+<event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
+f(ss.点唱机_m1 != true)
+{
+bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Meow！",sss.m_点唱机)
+bfms(sss.m_点唱机, "sl", true)
+ss 点唱机_m1 = true
+ss 点唱机_m2 = false
+ss 点唱机_m3 = false
+ss 点唱机_m4 = false
+ss 点唱机_m5 = false
+ss 点唱机_m6 = false
+ss 点唱机_m7 = false
+ss 点唱机_m8 = false
+ss 点唱机_m9 = false
+us(124,"textcolor","#ffff00")
+us(125,"textcolor","#ffffff")
+us(126,"textcolor","#ffffff")
+us(127,"textcolor","#ffffff")
+us(128,"textcolor","#ffffff")
+us(129,"textcolor","#ffffff")
+us(130,"textcolor","#ffffff")
+us(131,"textcolor","#ffffff")
+us(132,"textcolor","#ffffff")
+ss 点唱机_key = 1
+us(133,"text",ss.点唱机_key)
+}
+else
+{
+  bfms(sss.m_点唱机,"sp")
+  ss 点唱机_m1 = false
+  ss 点唱机_m2 = false
+  ss 点唱机_m3 = false
+  ss 点唱机_m4 = false
+  ss 点唱机_m5 = false
+  ss 点唱机_m6 = false
+  ss 点唱机_m7 = false
+  ss 点唱机_m8 = false
+  ss 点唱机_m9 = false
+  us(124,"textcolor","#ffffff")
+  us(125,"textcolor","#ffffff")
+  us(126,"textcolor","#ffffff")
+  us(127,"textcolor","#ffffff")
+  us(128,"textcolor","#ffffff")
+  us(129,"textcolor","#ffffff")
+  us(130,"textcolor","#ffffff")
+  us(131,"textcolor","#ffffff")
+  us(132,"textcolor","#ffffff")
+}</eventItme></event>
+</View>
+<View id="125" did="138" type="TextView">
+<ppt>width=-1
+height=60
+text=Once Upon a Time
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=center_horizontal
+layout_marginTop=0
+padding=4</ppt>
+<event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
+f(ss.点唱机_m2 != true)
+{
+bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Once Upon a Time",sss.m_点唱机)
+bfms(sss.m_点唱机, "sl", true)
+ss 点唱机_m1 = false
+ss 点唱机_m2 = true
+ss 点唱机_m3 = false
+ss 点唱机_m4 = false
+ss 点唱机_m5 = false
+ss 点唱机_m6 = false
+ss 点唱机_m7 = false
+ss 点唱机_m8 = false
+ss 点唱机_m9 = false
+us(124,"textcolor","#ffffff")
+us(125,"textcolor","#ffff00")
+us(126,"textcolor","#ffffff")
+us(127,"textcolor","#ffffff")
+us(128,"textcolor","#ffffff")
+us(129,"textcolor","#ffffff")
+us(130,"textcolor","#ffffff")
+us(131,"textcolor","#ffffff")
+us(132,"textcolor","#ffffff")
+ss 点唱机_key = 2
+us(133,"text",ss.点唱机_key)
+}
+else
+{
+  bfms(sss.m_点唱机,"sp")
+  ss 点唱机_m1 = false
+  ss 点唱机_m2 = false
+  ss 点唱机_m3 = false
+  ss 点唱机_m4 = false
+  ss 点唱机_m5 = false
+  ss 点唱机_m6 = false
+  ss 点唱机_m7 = false
+  ss 点唱机_m8 = false
+  ss 点唱机_m9 = false
+  us(124,"textcolor","#ffffff")
+  us(125,"textcolor","#ffffff")
+  us(126,"textcolor","#ffffff")
+  us(127,"textcolor","#ffffff")
+  us(128,"textcolor","#ffffff")
+  us(129,"textcolor","#ffffff")
+  us(130,"textcolor","#ffffff")
+  us(131,"textcolor","#ffffff")
+  us(132,"textcolor","#ffffff")
+}</eventItme></event>
+</View>
+<View id="126" did="138" type="TextView">
+<ppt>width=-1
+height=60
+text=Whole New World
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=center_horizontal
+layout_marginTop=0
+padding=4</ppt>
+<event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
+f(ss.点唱机_m3 != true)
+{
+bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Whole New World",sss.m_点唱机)
+bfms(sss.m_点唱机, "sl", true)
+ss 点唱机_m1 = false
+ss 点唱机_m2 = false
+ss 点唱机_m3 = true
+ss 点唱机_m4 = false
+ss 点唱机_m5 = false
+ss 点唱机_m6 = false
+ss 点唱机_m7 = false
+ss 点唱机_m8 = false
+ss 点唱机_m9 = false
+us(124,"textcolor","#ffffff")
+us(125,"textcolor","#ffffff")
+us(126,"textcolor","#ffff00")
+us(127,"textcolor","#ffffff")
+us(128,"textcolor","#ffffff")
+us(129,"textcolor","#ffffff")
+us(130,"textcolor","#ffffff")
+us(131,"textcolor","#ffffff")
+us(132,"textcolor","#ffffff")
+ss 点唱机_key = 3
+us(133,"text",ss.点唱机_key)
+}
+else
+{
+  bfms(sss.m_点唱机,"sp")
+  ss 点唱机_m1 = false
+  ss 点唱机_m2 = false
+  ss 点唱机_m3 = false
+  ss 点唱机_m4 = false
+  ss 点唱机_m5 = false
+  ss 点唱机_m6 = false
+  ss 点唱机_m7 = false
+  ss 点唱机_m8 = false
+  ss 点唱机_m9 = false
+  us(124,"textcolor","#ffffff")
+  us(125,"textcolor","#ffffff")
+  us(126,"textcolor","#ffffff")
+  us(127,"textcolor","#ffffff")
+  us(128,"textcolor","#ffffff")
+  us(129,"textcolor","#ffffff")
+  us(130,"textcolor","#ffffff")
+  us(131,"textcolor","#ffffff")
+  us(132,"textcolor","#ffffff")
+}</eventItme></event>
+</View>
+<View id="127" did="138" type="TextView">
+<ppt>width=-1
+height=60
+text=Search the Ruins
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=center_horizontal
+layout_marginTop=0
+padding=4</ppt>
+<event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
+f(ss.点唱机_m4 != true)
+{
+bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Search the Ruins",sss.m_点唱机)
+bfms(sss.m_点唱机, "sl", true)
+ss 点唱机_m1 = false
+ss 点唱机_m2 = false
+ss 点唱机_m3 = false
+ss 点唱机_m4 = true
+ss 点唱机_m5 = false
+ss 点唱机_m6 = false
+ss 点唱机_m7 = false
+ss 点唱机_m8 = false
+ss 点唱机_m9 = false
+us(124,"textcolor","#ffffff")
+us(125,"textcolor","#ffffff")
+us(126,"textcolor","#ffffff")
+us(127,"textcolor","#ffff00")
+us(128,"textcolor","#ffffff")
+us(129,"textcolor","#ffffff")
+us(130,"textcolor","#ffffff")
+us(131,"textcolor","#ffffff")
+us(132,"textcolor","#ffffff")
+ss 点唱机_key = 4
+us(133,"text",ss.点唱机_key)
+}
+else
+{
+  bfms(sss.m_点唱机,"sp")
+  ss 点唱机_m1 = false
+  ss 点唱机_m2 = false
+  ss 点唱机_m3 = false
+  ss 点唱机_m4 = false
+  ss 点唱机_m5 = false
+  ss 点唱机_m6 = false
+  ss 点唱机_m7 = false
+  ss 点唱机_m8 = false
+  ss 点唱机_m9 = false
+  us(124,"textcolor","#ffffff")
+  us(125,"textcolor","#ffffff")
+  us(126,"textcolor","#ffffff")
+  us(127,"textcolor","#ffffff")
+  us(128,"textcolor","#ffffff")
+  us(129,"textcolor","#ffffff")
+  us(130,"textcolor","#ffffff")
+  us(131,"textcolor","#ffffff")
+  us(132,"textcolor","#ffffff")
+}</eventItme></event>
+</View>
+<View id="128" did="138" type="TextView">
+<ppt>width=-1
+height=60
+text=Starry Night
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=center_horizontal
+layout_marginTop=0
+padding=4</ppt>
+<event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
+f(ss.点唱机_m5 != true)
+{
+bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Starry Night",sss.m_点唱机)
+bfms(sss.m_点唱机, "sl", true)
+ss 点唱机_m1 = false
+ss 点唱机_m2 = false
+ss 点唱机_m3 = false
+ss 点唱机_m4 = false
+ss 点唱机_m5 = true
+ss 点唱机_m6 = false
+ss 点唱机_m7 = false
+ss 点唱机_m8 = false
+ss 点唱机_m9 = false
+us(124,"textcolor","#ffffff")
+us(125,"textcolor","#ffffff")
+us(126,"textcolor","#ffffff")
+us(127,"textcolor","#ffffff")
+us(128,"textcolor","#ffff00")
+us(129,"textcolor","#ffffff")
+us(130,"textcolor","#ffffff")
+us(131,"textcolor","#ffffff")
+us(132,"textcolor","#ffffff")
+ss 点唱机_key = 5
+us(133,"text",ss.点唱机_key)
+}
+else
+{
+  bfms(sss.m_点唱机,"sp")
+  ss 点唱机_m1 = false
+  ss 点唱机_m2 = false
+  ss 点唱机_m3 = false
+  ss 点唱机_m4 = false
+  ss 点唱机_m5 = false
+  ss 点唱机_m6 = false
+  ss 点唱机_m7 = false
+  ss 点唱机_m8 = false
+  ss 点唱机_m9 = false
+  us(124,"textcolor","#ffffff")
+  us(125,"textcolor","#ffffff")
+  us(126,"textcolor","#ffffff")
+  us(127,"textcolor","#ffffff")
+  us(128,"textcolor","#ffffff")
+  us(129,"textcolor","#ffffff")
+  us(130,"textcolor","#ffffff")
+  us(131,"textcolor","#ffffff")
+  us(132,"textcolor","#ffffff")
+}</eventItme></event>
+</View>
+<View id="129" did="138" type="TextView">
+<ppt>width=-1
+height=60
+text=Bad Baby
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=center_horizontal
+layout_marginTop=0
+padding=4</ppt>
+<event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
+f(ss.点唱机_m6 != true)
+{
+bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Bad Baby",sss.m_点唱机)
+bfms(sss.m_点唱机, "sl", true)
+ss 点唱机_m1 = false
+ss 点唱机_m2 = false
+ss 点唱机_m3 = false
+ss 点唱机_m4 = false
+ss 点唱机_m5 = false
+ss 点唱机_m6 = true
+ss 点唱机_m7 = false
+ss 点唱机_m8 = false
+ss 点唱机_m9 = false
+us(124,"textcolor","#ffffff")
+us(125,"textcolor","#ffffff")
+us(126,"textcolor","#ffffff")
+us(127,"textcolor","#ffffff")
+us(128,"textcolor","#ffffff")
+us(129,"textcolor","#ffff00")
+us(130,"textcolor","#ffffff")
+us(131,"textcolor","#ffffff")
+us(132,"textcolor","#ffffff")
+ss 点唱机_key = 6
+us(133,"text",ss.点唱机_key)
+}
+else
+{
+  bfms(sss.m_点唱机,"sp")
+  ss 点唱机_m1 = false
+  ss 点唱机_m2 = false
+  ss 点唱机_m3 = false
+  ss 点唱机_m4 = false
+  ss 点唱机_m5 = false
+  ss 点唱机_m6 = false
+  ss 点唱机_m7 = false
+  ss 点唱机_m8 = false
+  ss 点唱机_m9 = false
+  us(124,"textcolor","#ffffff")
+  us(125,"textcolor","#ffffff")
+  us(126,"textcolor","#ffffff")
+  us(127,"textcolor","#ffffff")
+  us(128,"textcolor","#ffffff")
+  us(129,"textcolor","#ffffff")
+  us(130,"textcolor","#ffffff")
+  us(131,"textcolor","#ffffff")
+  us(132,"textcolor","#ffffff")
+}</eventItme></event>
+</View>
+<View id="130" did="138" type="TextView">
+<ppt>width=-1
+height=60
+text=Cat Napping
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=center_horizontal
+layout_marginTop=0
+padding=4</ppt>
+<event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
+f(ss.点唱机_m7 != true)
+{
+bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Cat Napping",sss.m_点唱机)
+bfms(sss.m_点唱机, "sl", true)
+ss 点唱机_m1 = false
+ss 点唱机_m2 = false
+ss 点唱机_m3 = false
+ss 点唱机_m4 = false
+ss 点唱机_m5 = false
+ss 点唱机_m6 = false
+ss 点唱机_m7 = true
+ss 点唱机_m8 = false
+ss 点唱机_m9 = false
+us(124,"textcolor","#ffffff")
+us(125,"textcolor","#ffffff")
+us(126,"textcolor","#ffffff")
+us(127,"textcolor","#ffffff")
+us(128,"textcolor","#ffffff")
+us(129,"textcolor","#ffffff")
+us(130,"textcolor","#ffff00")
+us(131,"textcolor","#ffffff")
+us(132,"textcolor","#ffffff")
+ss 点唱机_key = 7
+us(133,"text",ss.点唱机_key)
+}
+else
+{
+  bfms(sss.m_点唱机,"sp")
+  ss 点唱机_m1 = false
+  ss 点唱机_m2 = false
+  ss 点唱机_m3 = false
+  ss 点唱机_m4 = false
+  ss 点唱机_m5 = false
+  ss 点唱机_m6 = false
+  ss 点唱机_m7 = false
+  ss 点唱机_m8 = false
+  ss 点唱机_m9 = false
+  us(124,"textcolor","#ffffff")
+  us(125,"textcolor","#ffffff")
+  us(126,"textcolor","#ffffff")
+  us(127,"textcolor","#ffffff")
+  us(128,"textcolor","#ffffff")
+  us(129,"textcolor","#ffffff")
+  us(130,"textcolor","#ffffff")
+  us(131,"textcolor","#ffffff")
+  us(132,"textcolor","#ffffff")
+}</eventItme></event>
+</View>
+<View id="131" did="138" type="TextView">
+<ppt>width=-1
+height=60
+text=Hyper Furball
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=center_horizontal
+layout_marginTop=0
+padding=4</ppt>
+<event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
+f(ss.点唱机_m8 != true)
+{
+bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Hyper Furball",sss.m_点唱机)
+bfms(sss.m_点唱机, "sl", true)
+ss 点唱机_m1 = false
+ss 点唱机_m2 = false
+ss 点唱机_m3 = false
+ss 点唱机_m4 = false
+ss 点唱机_m5 = false
+ss 点唱机_m6 = false
+ss 点唱机_m7 = false
+ss 点唱机_m8 = true
+ss 点唱机_m9 = false
+us(124,"textcolor","#ffffff")
+us(125,"textcolor","#ffffff")
+us(126,"textcolor","#ffffff")
+us(127,"textcolor","#ffffff")
+us(128,"textcolor","#ffffff")
+us(129,"textcolor","#ffffff")
+us(130,"textcolor","#ffffff")
+us(131,"textcolor","#ffff00")
+us(132,"textcolor","#ffffff")
+ss 点唱机_key = 8
+us(133,"text",ss.点唱机_key)
+}
+else
+{
+  bfms(sss.m_点唱机,"sp")
+  ss 点唱机_m1 = false
+  ss 点唱机_m2 = false
+  ss 点唱机_m3 = false
+  ss 点唱机_m4 = false
+  ss 点唱机_m5 = false
+  ss 点唱机_m6 = false
+  ss 点唱机_m7 = false
+  ss 点唱机_m8 = false
+  ss 点唱机_m9 = false
+  us(124,"textcolor","#ffffff")
+  us(125,"textcolor","#ffffff")
+  us(126,"textcolor","#ffffff")
+  us(127,"textcolor","#ffffff")
+  us(128,"textcolor","#ffffff")
+  us(129,"textcolor","#ffffff")
+  us(130,"textcolor","#ffffff")
+  us(131,"textcolor","#ffffff")
+  us(132,"textcolor","#ffffff")
+}</eventItme></event>
+</View>
+<View id="132" did="138" type="TextView">
+<ppt>width=-1
+height=60
+text=Happy Cat
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=center_horizontal
+layout_marginTop=0
+padding=4</ppt>
+<event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
+f(ss.点唱机_m9 != true)
+{
+bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Happy Cat",sss.m_点唱机)
+bfms(sss.m_点唱机, "sl", true)
+ss 点唱机_m1 = false
+ss 点唱机_m2 = false
+ss 点唱机_m3 = false
+ss 点唱机_m4 = false
+ss 点唱机_m5 = false
+ss 点唱机_m6 = false
+ss 点唱机_m7 = false
+ss 点唱机_m8 = false
+ss 点唱机_m9 = true
+us(124,"textcolor","#ffffff")
+us(125,"textcolor","#ffffff")
+us(126,"textcolor","#ffffff")
+us(127,"textcolor","#ffffff")
+us(128,"textcolor","#ffffff")
+us(129,"textcolor","#ffffff")
+us(130,"textcolor","#ffffff")
+us(131,"textcolor","#ffffff")
+us(132,"textcolor","#ffff00")
+ss 点唱机_key = 9
+us(133,"text",ss.点唱机_key)
+}
+else
+{
+  bfms(sss.m_点唱机,"sp")
+  ss 点唱机_m1 = false
+  ss 点唱机_m2 = false
+  ss 点唱机_m3 = false
+  ss 点唱机_m4 = false
+  ss 点唱机_m5 = false
+  ss 点唱机_m6 = false
+  ss 点唱机_m7 = false
+  ss 点唱机_m8 = false
+  ss 点唱机_m9 = false
+  us(124,"textcolor","#ffffff")
+  us(125,"textcolor","#ffffff")
+  us(126,"textcolor","#ffffff")
+  us(127,"textcolor","#ffffff")
+  us(128,"textcolor","#ffffff")
+  us(129,"textcolor","#ffffff")
+  us(130,"textcolor","#ffffff")
+  us(131,"textcolor","#ffffff")
+  us(132,"textcolor","#ffffff")
+}</eventItme></event>
+</View>
+<View id="139" did="134" type="LinearLayout">
+<ppt>width=-1
+height=136
+orientation=vertical
+layout_marginTop=20</ppt>
+<event></event>
+</View>
+<View id="135" did="139" type="TextView">
+<ppt>width=-1
+height=60
+text=Meow！（标题曲）
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=left
+paddingLeft=50
+paddingRight=50
+paddingTop=4
+paddingBottom=4</ppt>
+<event></event>
+</View>
+<View id="136" did="139" type="TextView">
+<ppt>width=-1
+height=60
+text=制作时间：1小时12分钟
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=left
+layout_marginTop=0
+paddingLeft=50
+paddingRight=50
+paddingTop=4
+paddingBottom=4</ppt>
+<event></event>
+</View>
+<View id="141" did="134" type="ScrollView">
+<ppt>width=-1
+height=602
+visibility=gone
+overScrollMode=never
+scrollbars=none</ppt>
+<event></event>
+</View>
+<View id="140" did="141" type="TextView">
+<ppt>width=-1
+height=-1
+text=我真的为这个感到骄傲;我认为这非常适合作为游戏主题……是高能量和一个吸引人的引子!考虑到在主菜单中实际上没有什么可玩的，groovy(格鲁维?)的独奏部分是不必要的，但至少得做个像样的主题曲。可能这里唯一奇怪的部分是结尾，因为我需要找到一个好方法能让它循环播放。因为是在游戏开发的后半期作曲的，所以你在这里听到的猫叫效果基本上是从商店的BGM中复制粘贴过来的。
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=left
+focusable=false
+layout_marginTop=0
+paddingLeft=50
+paddingRight=50
+paddingTop=4
+paddingBottom=4</ppt>
+<event></event>
+</View>
+<View id="137" did="134" type="TextView">
+<ppt>width=-1
+height=-2
+text=展开更多
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_vertical
+focusable=false
+gravity=left
+layout_marginTop=30
+paddingLeft=50
+paddingRight=50
+paddingTop=4
+paddingBottom=4</ppt>
+<event><eventItme type="touchmonitor">f(ss.点唱机_readmore != true)
+{
+  f(ss.点唱机_冷却 != true)
+  {
+  ss 点唱机_冷却 = true
+  ss 点唱机_readmore = true
+  dhas(dh1, 138, "alpha",1,0)
+  dh(dh1, "duration",500)
+  dhas(dh2,138, "translationY", 0,-612)
+  dh(dh2, "duration",500)
+  dhas(dh3,139, "translationY", 0,-612)
+  dh(dh3, "duration",500)
+  dhas(dh4, 141, "alpha",0,1)
+  dh(dh4, "duration",500)
+  dhas(dh5,141, "translationY", 0,-612)
+  dh(dh5, "duration",500)
+  dhast(dhlist, "together",dh1, dh2,dh3,dh4,dh5)
+  dh(dhlist, "start")
+  us(137,"text","展开更少")
+  us(141,"visibility","visible")
+  us(137,"layout_margintop",-572)
+  t()
+  {
+    stop(500)
+    ss 点唱机_冷却 = false
+    ufnsui()
+    {
+      us(138,"visibility","invisible")
+    }
+  }
+  }
+}
+else
+{
+  f(ss.点唱机_冷却 != true)
+  {
+  ss 点唱机_冷却 = true
+  ss 点唱机_readmore = false
+  dhas(dh1, 138, "alpha",0,1)
+  dh(dh1, "duration",500)
+  dhas(dh2,138, "translationY",-612,0)
+  dh(dh2, "duration",500)
+  dhas(dh3,139, "translationY",-612,0)
+  dh(dh3, "duration",500)
+  dhas(dh4, 141, "alpha",1,0)
+  dh(dh4, "duration",500)
+  dhas(dh5,141, "translationY",-612,0)
+  dh(dh5, "duration",500)
+  dhast(dhlist, "together",dh1,dh2,dh3,dh4,dh5)
+  dh(dhlist, "start")
+  us(137,"text","展开更多")
+  us(138,"visibility","visible")
+  t()
+  {
+    stop(500)
+    ss 点唱机_冷却 = false
+    ufnsui()
+    {
+      us(141,"visibility","gone")
+      us(137,"layout_margintop",30)
+    }
+  }
+  }
+}</eventItme></event>
+</View>
+<View id="30" did="3" type="ImageView">
+<ppt>width=100
+height=100
+src=@Gui/关闭.png
+focusable=false
+layout_marginLeft=1315
+layout_marginTop=25</ppt>
+<event><eventItme type="touchmonitor">f(ss.key_主菜单 != 1)
+{
+ss key_主菜单 = 1
+dhas(dh, 2, "alpha", 1,0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+bfms(sss.m_点唱机,"sp")
+t()
+{
+stop(2500)
+end()
+ss 退出1 = true
+uigo("menu.iyu")
+}
+}</eventItme></event>
+</View>
+<View id="133" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=状态
+visibility=gone</ppt>
+<event><eventItme type="ontextchanged">ug(133,"text",play_bgm_id)
+
+f(play_bgm_id == 1)
+{
+  us(135,"text","Meow！（标题曲）")
+  us(136,"制作时间：1小时12分钟")
+  us(140,"text","我真的为这个感到骄傲;我认为这非常适合作为游戏主题……是高能量和一个吸引人的引子!考虑到在主菜单中实际上没有什么可玩的，groovy(格鲁维?)的独奏部分是不必要的，但至少得做个像样的主题曲。可能这里唯一奇怪的部分是结尾，因为我需要找到一个好方法能让它循环播放。因为是在游戏开发的后半期作曲的，所以你在这里听到的猫叫效果基本上是从商店的BGM中复制粘贴过来的。")
+}
+
+f(play_bgm_id == 2)
+{
+  us(135,"text","Once Upon a Time（故事引入BGM）")
+  us(136,"text","制作时间：15分钟")
+  us(140,"text","我只是需要一个听起来像摇篮曲的东西作为可爱又平和的故事的做介绍。所以，我从一个标准序列开始，从那里开始就很简单了。我考虑过添加更多内容，但最终决定不这么做。这很简单，而且很有效!再说，你到底要花多长时间看这篇报道?这首歌，就像几乎所有其他歌曲一样，在主导音出现后，以“Hyper Furball”为主要主题。")
+}
+
+f(play_bgm_id == 3)
+{
+  us(135,"text","Whole New World（第一阶段BGM）")
+  us(136,"text","制作时间：1小时25分钟")
+  us(140,"text","这是我在写完“Hyper Furball”之后写的。我真的很喜欢在不同的游戏配乐中出现重复的旋律主题，所以我在创作这首配乐时一直牢记这一点。在这种情况下，这里的主副歌使用了与“Hyper Furball”开头相同的旋律，这也出现在配乐的其余部分。这首歌很有趣，因为在副歌之后音景真的打开了，气氛从轻松愉快变成了非常广阔和广阔。我没打算这么做……就这么发生了。其实我不太喜欢这首歌的开头介绍……我觉得这在进入主题之前浪费了太多时间（这是第一个关卡主题，第一印象很重要！），但最终我决定保留它，因为它通常会在你阅读“游玩教程”时播放。")}
+
+f(play_bgm_id == 4)
+{
+  us(135,"text","Search the Ruins（第二阶段BGM）")
+  us(136,"text","制作时间：47分钟")
+  us(140,"text","我是在xellaya画完第二关卡场景的背景后写的这首歌——它有一种在东方庭园的感觉，所以我试着用五声复调来配合它。我认为这很适合作为第二阶段的主题，因为它有点黑暗，有点时髦——我们正在建立兴趣。我最后在这首歌的前半段没有低音线，这有一个很好的效果。然后我们进入超级戏剧性的部分，其中…就这样发生了。我真的不知道它是否适合一款关于一只打败婴儿和蘑菇的超级小猫的游戏，但「嘿，我试过了，好吗？」\n当然，在第三小节的最后加上了“Hyper Furball”的题目。")
+}
+
+f(play_bgm_id == 5)
+{
+  us(135,"text","Starry Night（第三阶段BGM）")
+  us(136,"text","制作时间：49分钟")
+  us(140,"text","第三组背景图像更暗，有星星和夜晚的背景，所以我从一个我认为很适合的铃声开始。我决定用一种恍惚的方式来处理这首歌，并设置了一个四层拍子。我认为这是可行的，因为这是最后一个阶段的主题，所以最好有一些向前驱动的动作。它有一种非常高亢和开放的声音。\n然后...... 你注意到这里的“Hyper Furball”主题了吗?")
+}
+
+f(play_bgm_id == 6)
+{
+  us(135,"text","Bad Baby（打BOSS的BGM）")
+  us(136,"text","制作时间：35分钟")
+  us(140,"text","在这一点上，我们开始没有时间来继续编写了。我甚至在考虑是否要加入boss战斗，因为我们只有几个小时的时间去完成它。我以一个非常经典的“咚咚”主题开始，然后我用一个典型的“邪恶”和弦来确定基调。我使用了“Hyper Furball”主题，就像我在“Search the Ruins”这个BGM中使用的一样。")
+}
+
+f(play_bgm_id == 7)
+{
+  us(135,"text","Cat Napping（商店的BGM）")
+  us(136,"text","制作时间：39分钟")
+  us(140,"text","啊，是商店的主题曲欸。他们超有趣的好不好 。我发现这种欢快的旋律感觉非常适合商店的主题。我决定用摇摆节奏来制作这首歌，因为我在脑海中听到的旋律就是那种节奏。是的……于是我想出了“喵~”的音效。ヾ(•ω•`)o ~")
+}
+
+f(play_bgm_id == 8)
+{
+  us(135,"text","Hyper Furball（无敌时间）")
+  us(136,"text","制作时间：1小时12分钟")
+  us(140,"text","这是我为整个游戏写的第一首歌——我知道这对游戏的感觉非常重要，所以我从这里开始。在200bpm的速度下，8小节大约相当于10秒，如果再加上额外的刺激爆炸声的话。我试着把「尽可能多的超能量」塞进这个曲子里，所以它听起来很吵(即过度压缩)，有很多快板的琶音，以踢踏鼓点作为结尾？awsl。\n（译者注：这段文本很难翻译，我摆烂了(╯‵□′)╯︵┻━┻  ）")
+}
+
+f(play_bgm_id == 9)
+{
+  us(135,"text","Happy Cat（通关の小曲）")
+  us(136,"text","制作时间：9分钟")
+  us(140,"text","额，结算清单的动画肥肠短，但最重要的是快到制作截稿的时间了，所以我们没有时间去制作其他的内容。一个单纯的8小节循环。快乐而简单。^.^")
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">//初始化
+lan(0)
+uycl("#00000000", false)
+uycl(true)
+ushsp(true)
+f(sss.set_背景优化 == null)
+{
+  sss set_背景优化 = false
+}
+f(sss.set_载入等待时间 == null)
+{
+  sss set_载入等待时间 = 1200
+}
+f(sss.set_背景优化 == false)
+{
+  us(75,"visibility","gone")
+  us(68,"visibility","gone")
+  us(89,"visibility","gone")
+  us(82,"visibility","gone")
+  us(103,"visibility","gone")
+  us(96,"visibility","gone")
+  us(110,"visibility","gone")
+  us(117,"visibility","gone")
+}
+s 背景1 = 0
+s 背景2 = 0
+s 背景3 = 0
+s 背景4 = 0
+f(sss.set_随机背景切换时间 == false)
+{
+  ss 背景切换时间 = 20000
+}
+else
+{
+  sran(5000,20000,ss.背景切换时间)
+  t()
+  {
+    w(ss.退出1 != true)
+    {
+      sran(5000,20000,ss.背景切换时间)
+      f(ss.退出1 == true)
+      {
+        endcode
+      }
+      else
+      {
+      stop(10000)
+      ufnsui()
+      {
+      //tw(ss.背景切换时间)
+      }
+      }
+    }
+  }
+}
+
+t()
+{
+  stop(sss.set_载入等待时间)
+  ufnsui()
+  {
+    dhas(dh, 2, "alpha",0,1)
+    dh(dh, "duration", 2000)
+    dh(dh, "start")
+    us(2,"visibility","visible")
+  }
+}
+
+//地图循环
+//背景1
+t()
+{
+w(ss.退出1 != true)
+{
+    s(背景1 - 1,背景1)
+    f(背景1 &lt;= -5760)
+    {
+      s 背景1 = 0
+    }
+    ufnsui()
+    {
+      us(31,"layout_marginleft",背景1)
+    }
+    stop(10)
+}
+}
+//背景2
+t()
+{
+w(ss.退出1 != true)
+{
+    s(背景2 - 2,背景2)
+    f(背景2 &lt;= -5760)
+    {
+      s 背景2 = 0
+    }
+    ufnsui()
+    {
+      us(32,"layout_marginleft",背景2)
+    }
+    stop(10)
+}
+}
+//背景3
+t()
+{
+w(ss.退出1 != true)
+{
+    s(背景3 - 3,背景3)
+    f(背景3 &lt;= -5760)
+    {
+      s 背景3 = 0
+    }
+    ufnsui()
+    {
+      us(39,"layout_marginleft",背景3)
+    }
+    stop(10)
+}
+}
+//背景4
+t()
+{
+w(ss.退出1 != true)
+{
+    s(背景4 - 4,背景4)
+    f(背景4 &lt;= -5760)
+    {
+      s 背景4 = 0
+    }
+    ufnsui()
+    {
+      us(40,"layout_marginleft",背景4)
+    }
+    stop(10)
+}
+}
+
+//切换背景的初始化
+dhas(d1h,23, "alpha",0, 0)
+dh(d1h, "duration",1)
+dh(d1h, "start")
+dhas(d2h,17, "alpha", 0, 0)
+dh(d2h, "duration",1)
+dh(d2h, "start")
+dhas(d3h,33, "alpha", 0, 0)
+dh(d3h, "duration",1)
+dh(d3h, "start")
+dhas(d4h,4, "alpha", 0, 0)
+dh(d4h, "duration",1)
+dh(d4h, "start")
+dhas(d5h,110, "alpha",0, 0)
+dh(d5h, "duration",1)
+dh(d5h, "start")
+dhas(d6h,117, "alpha", 0, 0)
+dh(d6h, "duration",1)
+dh(d6h, "start")
+dhas(d7h,75, "alpha", 0, 0)
+dh(d7h, "duration",1)
+dh(d7h, "start")
+dhas(d8h,68, "alpha", 0, 0)
+dh(d8h, "duration",1)
+dh(d8h, "start")
+dhas(d9h,89, "alpha",0, 0)
+dh(d9h, "duration",1)
+dh(d9h, "start")
+dhas(d10h,82, "alpha", 0, 0)
+dh(d10h, "duration",1)
+dh(d10h, "start")
+dhas(d11h,103, "alpha", 0, 0)
+dh(d11h, "duration",1)
+dh(d11h, "start")
+dhas(d12h,96, "alpha", 0, 0)
+dh(d12h, "duration",1)
+dh(d12h, "start")
+//切换背景(未优化)
+t()
+{
+  w(ss.退出1 != true)
+  {
+    //场景1
+    stop(ss.背景切换时间)
+    f(ss.退出1 != true && sss.set_背景优化 == false)
+    {
+    ufnsui()
+    {
+      us(5,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/3.png")
+      us(6,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/4.png")
+      us(7,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/1.png")
+      us(8,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/2.png")
+      us(9,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/3.png")
+      us(61,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/4.png")
+      us(34,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/3.png")
+      us(35,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/4.png")
+      us(36,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/1.png")
+      us(37,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/2.png")
+      us(38,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/3.png")
+      us(63,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/4.png")
+      us(18,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/3.png")
+      us(19,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/4.png")
+      us(20,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/1.png")
+      us(21,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/2.png")
+      us(22,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/3.png")
+      us(65,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/4.png")
+      us(24,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/3.png")
+      us(25,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/4.png")
+      us(26,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/1.png")
+      us(27,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/2.png")
+      us(28,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/3.png")
+      us(67,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/4.png")
+      //前景11111
+      us(54,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/3.png")
+      us(55,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/4.png")
+      us(56,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/1.png")
+      us(57,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/2.png")
+      us(58,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/3.png")
+      us(60,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/4.png")
+      us(12,"src",0)
+      us(13,"src",0)
+      us(14,"src",0)
+      us(15,"src",0)
+      us(16,"src",0)
+      us(62,"src",0)
+      us(42,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/3.png")
+      us(43,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/4.png")
+      us(44,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/1.png")
+      us(45,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/2.png")
+      us(46,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/3.png")
+      us(64,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/4.png")
+      us(48,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/3.png")
+      us(49,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/4.png")
+      us(50,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/1.png")
+      us(51,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/2.png")
+      us(52,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/3.png")
+      us(66,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/4.png")
+      dhas(d1h,53, "alpha",1, 0)
+      dh(d1h, "duration", 2000)
+      dh(d1h, "start")
+      dhas(d2h,41, "alpha", 1, 0)
+      dh(d2h, "duration", 2000)
+      dh(d2h, "start")
+      dhas(d3h,47, "alpha", 1, 0)
+      dh(d3h, "duration", 2000)
+      dh(d3h, "start")
+      dhas(d4h,11, "alpha", 1, 0)
+      dh(d4h, "duration", 2000)
+      dh(d4h, "start")
+      dhas(d5h,4, "alpha",0,1)
+      dh(d5h, "duration", 2000)
+      dh(d5h, "start")
+      dhas(d6h,33, "alpha",0,1)
+      dh(d6h, "duration", 2000)
+      dh(d6h, "start")
+      dhas(d7h,17, "alpha", 0,1)
+      dh(d7h, "duration", 2000)
+      dh(d7h, "start")
+      dhas(d8h,23, "alpha", 0,1)
+      dh(d8h, "duration", 2000)
+      dh(d8h, "start")
+    }
+    }
+    else
+    {
+      endcode
+    }
+    //场景2
+    stop(ss.背景切换时间)
+    f(ss.退出1 != true)
+    {
+    ufnsui()
+    {
+      us(5,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/3.png")
+      us(6,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/4.png")
+      us(7,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/1.png")
+      us(8,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/2.png")
+      us(9,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/3.png")
+      us(61,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/4.png")
+      us(34,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/3.png")
+      us(35,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/4.png")
+      us(36,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/1.png")
+      us(37,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/2.png")
+      us(38,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/3.png")
+      us(63,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/4.png")
+      us(18,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/3.png")
+      us(19,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/4.png")
+      us(20,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/1.png")
+      us(21,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/2.png")
+      us(22,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/3.png")
+      us(65,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/4.png")
+      us(24,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/3.png")
+      us(25,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/4.png")
+      us(26,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/1.png")
+      us(27,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/2.png")
+      us(28,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/3.png")
+      us(67,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/4.png")
+      //前景22222
+      us(54,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/3.png")
+      us(55,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/4.png")
+      us(56,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/1.png")
+      us(57,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/2.png")
+      us(58,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/3.png")
+      us(60,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile1/4.png")
+      us(12,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/3.png")
+      us(13,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/4.png")
+      us(14,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/1.png")
+      us(15,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/2.png")
+      us(16,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/3.png")
+      us(62,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile2/4.png")
+      us(42,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/3.png")
+      us(43,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/4.png")
+      us(44,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/1.png")
+      us(45,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/2.png")
+      us(46,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/3.png")
+      us(64,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile3/4.png")
+      us(48,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/3.png")
+      us(49,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/4.png")
+      us(50,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/1.png")
+      us(51,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/2.png")
+      us(52,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/3.png")
+      us(66,"src","%HyperFurball/.data/Image/WorldBackground/Level2_backgroundFile4/4.png")
+      dhas(d1h,53, "alpha",1, 0)
+      dh(d1h, "duration", 2000)
+      dh(d1h, "start")
+      dhas(d2h,41, "alpha", 1, 0)
+      dh(d2h, "duration", 2000)
+      dh(d2h, "start")
+      dhas(d3h,47, "alpha", 1, 0)
+      dh(d3h, "duration", 2000)
+      dh(d3h, "start")
+      dhas(d4h,11, "alpha", 1, 0)
+      dh(d4h, "duration", 2000)
+      dh(d4h, "start")
+      dhas(d5h,4, "alpha",0,1)
+      dh(d5h, "duration", 2000)
+      dh(d5h, "start")
+      dhas(d6h,33, "alpha",0,1)
+      dh(d6h, "duration", 2000)
+      dh(d6h, "start")
+      dhas(d7h,17, "alpha", 0,1)
+      dh(d7h, "duration", 2000)
+      dh(d7h, "start")
+      dhas(d8h,23, "alpha", 0,1)
+      dh(d8h, "duration", 2000)
+      dh(d8h, "start")
+    }
+    }
+    else
+    {
+      endcode
+    }
+    //场景3
+    stop(ss.背景切换时间)
+    f(ss.退出1 != true)
+    {
+    ufnsui()
+    {
+      us(5,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/3.png")
+      us(6,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/4.png")
+      us(7,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/1.png")
+      us(8,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/2.png")
+      us(9,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/3.png")
+      us(61,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/4.png")
+      us(34,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/3.png")
+      us(35,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/4.png")
+      us(36,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/1.png")
+      us(37,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/2.png")
+      us(38,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/3.png")
+      us(63,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/4.png")
+      us(18,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/3.png")
+      us(19,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/4.png")
+      us(20,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/1.png")
+      us(21,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/2.png")
+      us(22,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/3.png")
+      us(65,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/4.png")
+      us(24,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/3.png")
+      us(25,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/4.png")
+      us(26,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/1.png")
+      us(27,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/2.png")
+      us(28,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/3.png")
+      us(67,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/4.png")
+      //前景33333
+      us(54,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/3.png")
+      us(55,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/4.png")
+      us(56,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/1.png")
+      us(57,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/2.png")
+      us(58,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/3.png")
+      us(60,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile1/4.png")
+      us(12,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/3.png")
+      us(13,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/4.png")
+      us(14,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/1.png")
+      us(15,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/2.png")
+      us(16,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/3.png")
+      us(62,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile2/4.png")
+      us(42,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/3.png")
+      us(43,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/4.png")
+      us(44,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/1.png")
+      us(45,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/2.png")
+      us(46,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/3.png")
+      us(64,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile3/4.png")
+      us(48,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/3.png")
+      us(49,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/4.png")
+      us(50,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/1.png")
+      us(51,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/2.png")
+      us(52,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/3.png")
+      us(66,"src","%HyperFurball/.data/Image/WorldBackground/Level3_backgroundFile4/4.png")
+      dhas(d1h,53, "alpha",1, 0)
+      dh(d1h, "duration", 2000)
+      dh(d1h, "start")
+      dhas(d2h,41, "alpha", 1, 0)
+      dh(d2h, "duration", 2000)
+      dh(d2h, "start")
+      dhas(d3h,47, "alpha", 1, 0)
+      dh(d3h, "duration", 2000)
+      dh(d3h, "start")
+      dhas(d4h,11, "alpha", 1, 0)
+      dh(d4h, "duration", 2000)
+      dh(d4h, "start")
+      dhas(d5h,4, "alpha",0,1)
+      dh(d5h, "duration", 2000)
+      dh(d5h, "start")
+      dhas(d6h,33, "alpha",0,1)
+      dh(d6h, "duration", 2000)
+      dh(d6h, "start")
+      dhas(d7h,17, "alpha", 0,1)
+      dh(d7h, "duration", 2000)
+      dh(d7h, "start")
+      dhas(d8h,23, "alpha", 0,1)
+      dh(d8h, "duration", 2000)
+      dh(d8h, "start")
+    }
+    }
+    else
+    {
+      endcode
+    }
+    //场景4
+    stop(ss.背景切换时间)
+    f(ss.退出1 != true)
+    {
+    ufnsui()
+    {
+      us(5,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/3.png")
+      us(6,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/4.png")
+      us(7,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/1.png")
+      us(8,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/2.png")
+      us(9,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/3.png")
+      us(61,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/4.png")
+      us(34,"src",0)
+      us(35,"src",0)
+      us(36,"src",0)
+      us(37,"src",0)
+      us(38,"src",0)
+      us(63,"src",0)
+      us(18,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/3.png")
+      us(19,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/4.png")
+      us(20,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/1.png")
+      us(21,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/2.png")
+      us(22,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/3.png")
+      us(65,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/4.png")
+      us(24,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/3.png")
+      us(25,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/4.png")
+      us(26,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/1.png")
+      us(27,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/2.png")
+      us(28,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/3.png")
+      us(67,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/4.png")
+      //前景44444
+      us(54,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/3.png")
+      us(55,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/4.png")
+      us(56,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/1.png")
+      us(57,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/2.png")
+      us(58,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/3.png")
+      us(60,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile1/4.png")
+      us(12,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/3.png")
+      us(13,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/4.png")
+      us(14,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/1.png")
+      us(15,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/2.png")
+      us(16,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/3.png")
+      us(62,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile2/4.png")
+      us(42,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/3.png")
+      us(43,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/4.png")
+      us(44,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/1.png")
+      us(45,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/2.png")
+      us(46,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/3.png")
+      us(64,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile3/4.png")
+      us(48,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/3.png")
+      us(49,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/4.png")
+      us(50,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/1.png")
+      us(51,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/2.png")
+      us(52,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/3.png")
+      us(66,"src","%HyperFurball/.data/Image/WorldBackground/boss_backgroundFile4/4.png")
+      dhas(d1h,53, "alpha",1, 0)
+      dh(d1h, "duration", 2000)
+      dh(d1h, "start")
+      dhas(d2h,41, "alpha", 1, 0)
+      dh(d2h, "duration", 2000)
+      dh(d2h, "start")
+      dhas(d3h,47, "alpha", 1, 0)
+      dh(d3h, "duration", 2000)
+      dh(d3h, "start")
+      dhas(d4h,11, "alpha", 1, 0)
+      dh(d4h, "duration", 2000)
+      dh(d4h, "start")
+      dhas(d5h,4, "alpha",0,1)
+      dh(d5h, "duration", 2000)
+      dh(d5h, "start")
+      dhas(d6h,33, "alpha",0,1)
+      dh(d6h, "duration", 2000)
+      dh(d6h, "start")
+      dhas(d7h,17, "alpha", 0,1)
+      dh(d7h, "duration", 2000)
+      dh(d7h, "start")
+      dhas(d8h,23, "alpha", 0,1)
+      dh(d8h, "duration", 2000)
+      dh(d8h, "start")
+    }
+    }
+    else
+    {
+      endcode
+    }
+  }
+}
+//切换背景(已优化)
+f(ss.退出1 != true && sss.set_背景优化 == true)
+{
+  t()
+  {
+  w(ss.退出1 != true)
+  {
+    stop(ss.背景切换时间)
+    f(ss.退出1 != true)
+    {
+    ufnsui()
+    {
+      dhas(d1h,53, "alpha",1, 0)
+      dh(d1h, "duration", 2000)
+      dh(d1h, "start")
+      dhas(d2h,41, "alpha", 1, 0)
+      dh(d2h, "duration", 2000)
+      dh(d2h, "start")
+      dhas(d3h,47, "alpha", 1, 0)
+      dh(d3h, "duration", 2000)
+      dh(d3h, "start")
+      dhas(d4h,11, "alpha", 1, 0)
+      dh(d4h, "duration", 2000)
+      dh(d4h, "start")
+      dhas(d5h,4, "alpha",0,1)
+      dh(d5h, "duration", 2000)
+      dh(d5h, "start")
+      dhas(d6h,33, "alpha",0,1)
+      dh(d6h, "duration", 2000)
+      dh(d6h, "start")
+      dhas(d7h,17, "alpha", 0,1)
+      dh(d7h, "duration", 2000)
+      dh(d7h, "start")
+      dhas(d8h,23, "alpha", 0,1)
+      dh(d8h, "duration", 2000)
+      dh(d8h, "start")
+      }
+    }
+    stop(ss.背景切换时间)
+    f(ss.退出1 != true)
+    {
+    ufnsui()
+    {
+      dhas(d1h,4, "alpha",1, 0)
+      dh(d1h, "duration", 2000)
+      dh(d1h, "start")
+      dhas(d2h,33, "alpha", 1, 0)
+      dh(d2h, "duration", 2000)
+      dh(d2h, "start")
+      dhas(d3h,17, "alpha", 1, 0)
+      dh(d3h, "duration", 2000)
+      dh(d3h, "start")
+      dhas(d4h,23, "alpha", 1, 0)
+      dh(d4h, "duration", 2000)
+      dh(d4h, "start")
+      dhas(d5h,68, "alpha",0,1)
+      dh(d5h, "duration", 2000)
+      dh(d5h, "start")
+      dhas(d6h,82, "alpha",0,1)
+      dh(d6h, "duration", 2000)
+      dh(d6h, "start")
+      dhas(d7h,96, "alpha", 0,1)
+      dh(d7h, "duration", 2000)
+      dh(d7h, "start")
+      dhas(d8h,117, "alpha", 0,1)
+      dh(d8h, "duration", 2000)
+      dh(d8h, "start")
+      }
+    }
+    stop(ss.背景切换时间)
+    f(ss.退出1 != true)
+    {
+    ufnsui()
+    {
+      dhas(d1h,117, "alpha",1, 0)
+      dh(d1h, "duration", 2000)
+      dh(d1h, "start")
+      dhas(d2h,96, "alpha", 1, 0)
+      dh(d2h, "duration", 2000)
+      dh(d2h, "start")
+      dhas(d3h,82, "alpha", 1, 0)
+      dh(d3h, "duration", 2000)
+      dh(d3h, "start")
+      dhas(d4h,68, "alpha", 1, 0)
+      dh(d4h, "duration", 2000)
+      dh(d4h, "start")
+      dhas(d5h,110, "alpha",0,1)
+      dh(d5h, "duration", 2000)
+      dh(d5h, "start")
+      dhas(d6h,103, "alpha",0,1)
+      dh(d6h, "duration", 2000)
+      dh(d6h, "start")
+      dhas(d7h,89, "alpha", 0,1)
+      dh(d7h, "duration", 2000)
+      dh(d7h, "start")
+      dhas(d8h,75, "alpha", 0,1)
+      dh(d8h, "duration", 2000)
+      dh(d8h, "start")
+      }
+    }
+    stop(ss.背景切换时间)
+    f(ss.退出1 != true)
+    {
+    ufnsui()
+    {
+      dhas(d1h,110, "alpha",1, 0)
+      dh(d1h, "duration", 2000)
+      dh(d1h, "start")
+      dhas(d2h,103, "alpha", 1, 0)
+      dh(d2h, "duration", 2000)
+      dh(d2h, "start")
+      dhas(d3h,89, "alpha", 1, 0)
+      dh(d3h, "duration", 2000)
+      dh(d3h, "start")
+      dhas(d4h,75, "alpha", 1, 0)
+      dh(d4h, "duration", 2000)
+      dh(d4h, "start")
+      dhas(d5h,53, "alpha",0,1)
+      dh(d5h, "duration", 2000)
+      dh(d5h, "start")
+      dhas(d6h,47, "alpha",0,1)
+      dh(d6h, "duration", 2000)
+      dh(d6h, "start")
+      dhas(d7h,11, "alpha", 0,1)
+      dh(d7h, "duration", 2000)
+      dh(d7h, "start")
+      dhas(d8h,41, "alpha", 0,1)
+      dh(d8h, "duration", 2000)
+      dh(d8h, "start")
+      }
+    }
+  }
+ }
+}</eventItme><eventItme type="upkey_主菜单">f(st_kC == 4 || st_kC == 111)
+{
+  f(ss.key_主菜单 != 1)
+  {
+    ss key_主菜单 = 1
+  ss 退出1 = true
+  dhas(dh, 2, "alpha", 1,0)
+  dh(dh, "duration", 1500)
+  dh(dh, "start")
+  bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+  t()
+  {
+    stop(2500)
+    end()
+    uigo("menu.iyu")
+  }
+  }
+}</eventItme><eventItme type="downkey_主菜单">f(st_kC == 62)
+{
+f(ss.meow != true)
+{
+  ss meow = true
+  us(29,"src","%HyperFurball/.data/Image/Furball/meow.gif")
+  t()
+  {
+    stop(500)
+    ufnsui()
+    {
+      us(29,"src","%HyperFurball/.data/Image/Furball/walk.gif")
+    }
+    ss meow = false
+  }
+}
+f(ss.meow1 != true)
+{
+ss meow1 = true
+bfms(ss.sfx,"sp")
+bfm("%HyperFurball/.data/media/Sfx/Meow",ss.sfx)
+t()
+{
+  stop(50)
+  ss meow1 = false
+}
+}
+}</eventItme><eventItme type="destroy">ss 退出1 = true</eventItme><eventItme type="upkey">f(st_kC == 4 || st_kC == 111)
+{
+  f(ss.key_主菜单 != 1)
+{
+ss key_主菜单 = 1
+dhas(dh, 2, "alpha", 1,0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
+bfms(sss.m_点唱机,"sp")
+t()
+{
+stop(2500)
+end()
+ss 退出1 = true
+uigo("menu.iyu")
+}
+}
+}</eventItme><eventItme type="downkey">f()
+{
+}</eventItme><eventItme type="stop">bfms(sss.m_点唱机,"pe")</eventItme><eventItme type="restart">bfms(sss.m_点唱机,"st")</eventItme></UIEventset>

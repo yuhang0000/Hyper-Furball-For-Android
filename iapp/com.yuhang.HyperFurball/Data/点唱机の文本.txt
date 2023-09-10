@@ -1,0 +1,67 @@
+################点唱机################
+
+================EN================
+
+I'm really proud of this one; I think it works really well as a title theme...high energy and with a catchy hook!  The groovy solo section is kind of unnecessary considering how little there is to actually DO in the main menu here, but I had to at least give this song -some- length.  Probably the only awkward part here is the ending, since I needed a good way to wrap it back to the beginning fill.  This was actually one of the later songs I wrote, so the cat meow effect that you hear here is basically copy-pasted from the store theme.
+
+I just needed a lullaby-sounding thing for the storybook intro...something cute and peaceful.  So, I started with a standard sequence, and it was just really simple from there.  I considered adding more to this, but decided against it.  It's simple and it works!  Plus, how long are you going to be looking at the story, anyways?  This one, like pretty much every other song, features the main Hyper Furball motif once the main lead comes in.
+
+I wrote this one after writing "Hyper Furball".  I really like it when game soundtracks feature repeated melodic motifs that show up in various tracks, so I tried to keep that in mind as I was composing for this soundtrack.  In this case, the main chorus here uses the same melody as the beginning of "Hyper Furball", which also shows up throughout the rest of the soundtrack.  This one is interesting because the soundscape really opens up after the chorus and the mood goes from light-hearted and chippy to being really vast and expansive.  I wasn't planning on that...it just sort of happened.  I actually don't like the opening intro for this song that much...I feel like it wastes too much time before getting into the main theme (this is the first level theme, and first impressions count!), but in the end I decided to keep it because it usually plays while you read the instructions anyways.
+
+I wrote this one after xellaya drew the backgrounds for the second level scene -- it has a sort of Asian garden look to it, so I tried to match that by starting things off with a pentatonic riff.  I think this works well as the second stage theme, since it's a little darker, a little more groovy -- we're building up interest.  I ended up having no bassline for the first half of the song, which has a nice effect.  Then we go into this super dramatic section, which...again, just sort of happened.  I really don't know if it matches a game about a hyper cat that destroys babies and mushrooms, but HEY I TRIED, OKAY?  The main Hyper Furball theme shows up here at the very end of the song, briefly for 3 measures.
+
+The third set of background images were darker, with stars and a night background, so I started off with a bell sound that I think fits that well.  I decided to go sort of trancey with this one and laid down a four-on-the-floor beat.  I think it works, since this is the last stage theme, so it's good for there to be some forward driving motion.  It has a very soaring and open sound.  Did you notice the Hyper Furball theme here?
+
+At this point we were starting to run short on time...I was even debating whether to put the boss battle in at all, since we only had a few hours to really implement it.  I started things off with a pretty classic "dun dun" motif, and then I just have a typical "evil" chord progression to set the tone here.  I sort of cheated by using the Hyper Furball theme in pretty much the same way as I did in "Search the Ruins".
+
+Ahh, shop themes.  They're always lots of fun.  I find that this sort of chippy happy light feel works really well for shop themes.  I decided that I wanted to make this one in swing rhythm, just because I was hearing the melody in my head that way.  And yes...here's where I came up with the "meow~" sound effect.  Yay~
+
+This was the very first song I wrote for the whole game -- I knew that this would be really important to the feel of the game, so I started here.  At 200 beats per minute, 8 bars works out roughly to 10 seconds, if you add in the extra opening pewpew sound.  I tried to cram AS MUCH HYPER ENERGY AS POSSIBLE into this thing, so it's really loud (i.e. overcompressed), has lots of fast runs and arpeggios, and a drilling kick fill at the end.  Awesome.
+
+Well, the ending scene is really short, so no time in making something long and drawn out, especially since we were really coming close to the deadline at this point.  This is just a simple 8 bar loop.  Happy and simple.  ^.^
+
+================CN================
+
+我真的为这个感到骄傲;我认为这非常适合作为游戏主题……是高能量和一个吸引人的引子!考虑到在主菜单中实际上没有什么可玩的，groovy(格鲁维?)的独奏部分是不必要的，但至少得做个像样的主题曲。可能这里唯一奇怪的部分是结尾，因为我需要找到一个好方法能让它循环播放。因为是在游戏开发的后半期作曲的，所以你在这里听到的猫叫效果基本上是从商店的BGM中复制粘贴过来的。
+
+我只是需要一个听起来像摇篮曲的东西作为可爱又平和的故事的做介绍。所以，我从一个标准序列开始，从那里开始就很简单了。我考虑过添加更多内容，但最终决定不这么做。这很简单，而且很有效!再说，你到底要花多长时间看这篇报道?这首歌，就像几乎所有其他歌曲一样，在主导音出现后，以“Hyper Furball”为主要主题。
+
+这是我在写完“Hyper Furball”之后写的。我真的很喜欢在不同的游戏配乐中出现重复的旋律主题，所以我在创作这首配乐时一直牢记这一点。在这种情况下，这里的主副歌使用了与“Hyper Furball”开头相同的旋律，这也出现在配乐的其余部分。这首歌很有趣，因为在副歌之后音景真的打开了，气氛从轻松愉快变成了非常广阔和广阔。我没打算这么做……就这么发生了。其实我不太喜欢这首歌的开头介绍……我觉得这在进入主题之前浪费了太多时间(这是第一个关卡主题，第一印象很重要!)，但最终我决定保留它，因为它通常会在你阅读"游玩教程"时播放。
+
+我是在xellaya画完第二关卡场景的背景后写的这首歌——它有一种在东方庭园的感觉，所以我试着用五声复调来配合它。我认为这很适合作为第二阶段的主题，因为它有点黑暗，有点时髦——我们正在建立兴趣。我最后在这首歌的前半段没有低音线，这有一个很好的效果。然后我们进入超级戏剧性的部分，其中…就这样发生了。我真的不知道它是否适合一款关于一只打败婴儿和蘑菇的超级小猫的游戏，但「嘿，我试过了，好吗？」\n当然，在第三小节的最后加上了“Hyper Furball”的题目。
+
+第三组背景图像更暗，有星星和夜晚的背景，所以我从一个我认为很适合的铃声开始。我决定用一种恍惚的方式来处理这首歌，并设置了一个四层拍子。我认为这是可行的，因为这是最后一个阶段的主题，所以最好有一些向前驱动的动作。它有一种非常高亢和开放的声音。\n然后...... 你注意到这里的“Hyper Furball”主题了吗?
+
+在这一点上，我们开始没有时间来继续编写了。我甚至在考虑是否要加入boss战斗，因为我们只有几个小时的时间去完成它。我以一个非常经典的“咚咚”主题开始，然后我用一个典型的“邪恶”和弦来确定基调。我使用了“Hyper Furball”主题，就像我在“Search the Ruins”这个BGM中使用的一样。
+
+啊，是商店的主题曲欸。他们超有趣的好不好 。我发现这种欢快的旋律感觉非常适合商店的主题。我决定用摇摆节奏来制作这首歌，因为我在脑海中听到的旋律就是那种节奏。是的……于是我想出了“喵~”的音效。ヾ(•ω•`)o ~
+
+这是我为整个游戏写的第一首歌——我知道这对游戏的感觉非常重要，所以我从这里开始。在200bpm的速度下，8小节大约相当于10秒，如果再加上额外的刺激爆炸声的话。我试着把「尽可能多的超能量」塞进这个曲子里，所以它听起来很吵(即过度压缩)，有很多快板的琶音，以踢踏鼓点作为结尾？awsl。\n（译者注：这段文本很难翻译，我摆烂了(╯‵□′)╯︵┻━┻  ）
+
+额，结算清单的动画肥肠短，但最重要的是快到制作截稿的时间了，所以我们没有时间去制作其他的内容。一个单纯的8小节循环。快乐而简单。^.^
+
+================JP================
+
+ハイエネルギーとノリノリのさび！この曲に満足しているよ。タイトルテーマとして上手くいけると思う。メニューでモードしか選択しないからグルーヴィーな独奏部がちょっと不要だけど、少なくともちゃんとしたテーマを作らなきゃならないな。イントロのフィルで問題なく戻さなきゃいけなかったからおかしい部分はエンディングだけなんだと思う。ゲーム開発の後半で作曲したので、この聞いた「にゃ～」の音はお店のテーマからコピペだよ。
+
+ストーリーブックイントロのためになんか可愛くて静かな子守歌っぽいな曲が欲しいだけだ。まず、基本な進行から始まって、そこからは単純だよ。もっと加えるかなっと考えたけど、加えないことにした。単純で十分よ！さらにストーリーを読む時間が短いし。この曲には、メインリードが来ると、他の曲のようにハイパー・ファーボールのモチーフを付けた。
+
+「ハイパー・ファーボール」を作曲した後でこんなのを作曲した。色んな曲を付けた旋律モチーフのあるゲームサウンドトラックが本当に大好きだから、このゲームのサウンドトラックを作ってる間に、そんな事を心に留めようとした。この場合には、コーラス、及びサウンドトラックの他の曲、は「ハイパー・ファーボール」の始まりのメロディーを組み込む。コーラスの後に音の風景を広がって、雰囲気がチッピーでライトから広大になるので、面白いことになった。そんな展開はたまたま…計画した訳じゃないし。実は、この曲のイントロがあんまり好きじゃない。メインテーマを始める前にイントロが多くの時間を無駄にした気がする（最初のレベルテーマだし、第一印象は重要だよ！）けど、説明を読んでる間に聞くから、イントロを据え置いた。
+
+xellayaさんが第２の背景セットを描いた後にこれを作曲した。なんかアジア庭園みたいな背景だから、こんな感じを合わせるように五音のリフで始めた。ちょっと暗くてグルーヴィーだから、第２のステージテーマとして上手くいけると思う。興味を生み出すから。良い効果があるから前半でベースラインがないことにした。後は凄く劇的な部分が始まる。またたまたまだよ、たまたま。この曲は赤ちゃんとキノコを倒すハイパー猫についてのゲームによく似合うか分からないけど、いいからほっといてよー。３小節で最後の最後にハイパー・ファーボールのテーマを付けた。
+
+第３の背景セットは星とか夜の背景が付いてるから、似合うと思ったベル音から始めた。トランスな感じを決めて、フォーオンザフロアのビートから作曲した。最後のステージテーマだし、ゲームが進展し始めるからいけると思う。遠大で広いな音が持ってるよ。ね、ハイパー・ファーボールのテーマに気付いてたか？
+
+ここまでは時間切れになりそうだよ。数時間が残るから組み入れるかどうかもう分からなかった。とにかく、「ドンドン」っていうの伝統的なモチーフから始まって、「悪」のようなコード進行で雰囲気を定める。「サーチ・ザ・ルーインズ」とほとんど同じようにハイパー・ファーボールのテーマを付けた。カンニングだと思うだろう。
+
+ああ、お店のテーマ。とっても楽しいよ。お店のテーマにはこんなチッピーでハッピーでライトな感情が本当に似合う。このようなメロディーを考えていたから、スウィングリズムで作ることにした。そして…「にゃ～」の音の元だよ。わ～い
+
+これはゲームの最初の作曲だよ。ゲームの雰囲気にとって重要だから、ここから始めた。２００ＢＰＭでは、「シャー」の音を組み込むと、８小説は凡そ１０秒だ。この曲には　ナルベクハイパーエネルギー　を組み込むから、とってもやかましい（すなわち、圧縮し過ぎる）し、速いアルペジオがあるし、タタタのキックドラムのフィルで終わる。あらすごい。
+
+まぁ、エンディングは凄く短いから、早急にテーマを作った。特に〆切れが迫っているよ。単純の８小説のループだよ。ハッピー＆シンプルよ。 ^.^
+
+========================================
+JP和EN文本为原文，CN的话先用有道翻译去机翻，看了机翻表示很蒙？？？然后自己又去花点时间去调整 。
+
+By：yuhang0000
+2023-9-10

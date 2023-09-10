@@ -1,0 +1,352 @@
+<View id="11" did="0" type="LinearLayout">
+<ppt>width=802
+height=687
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="1" did="11" type="LinearLayout">
+<ppt>width=802
+height=85
+orientation=horizontal
+background=#22bbffaa
+paddingTop=1
+paddingLeft=1
+paddingRight=1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=85
+height=85
+BackgroundColor=#cccccccc</ppt>
+<event><eventItme type="touchmonitor">[true]
+gvs(sss.悬浮窗,悬浮窗.4,控件4)
+gvs(sss.悬浮窗,悬浮窗.12,控件12)
+gvs(sss.悬浮窗交互组件,悬浮窗交互组件.12,交互12)
+f(st_eA == 2)
+{
+  us(控件4,"background","#bbbbbbbb")
+}
+else f(st_eA == 1)
+{
+  us(控件4,"background","through")
+  f(sss.悬浮窗_图标菜单 == true)
+  {
+    sss 悬浮窗_图标菜单 = false
+    us(控件4,"background","through")
+    dhas(dh,控件12,"translationY",344,0)
+    dh(dh,"duration",200)
+    dh(dh,"start")
+    dhas(dh1,交互12,"translationY",344,0)
+    dh(dh1,"duration",200)
+    dh(dh1,"start")
+  }
+  else
+  {
+    sss 悬浮窗_图标菜单 = true
+    us(控件4,"background","#dddddddd")
+    dhas(dh,控件12,"translationY",0,344)
+    dh(dh,"duration",200)
+    dh(dh,"start")
+    dhas(dh1,交互12,"translationY",0,344)
+    dh(dh1,"duration",200)
+    dh(dh1,"start")
+  }
+}</eventItme></event>
+</View>
+<View id="5" did="1" type="RelativeLayout">
+<ppt>width=462
+height=85
+BackgroundColor=#66ffffff</ppt>
+<event><eventItme type="touchmonitor">[true]
+f(st_eA == 0)
+{
+  ss 悬浮窗ex = st_eX
+  ss 悬浮窗ey = st_eY
+  ss 悬浮窗??? = 0
+  ss 悬浮窗rrr = 0
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.5,ss.悬浮窗交互控件5)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.11,ss.悬浮窗交互控件11)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.1,ss.悬浮窗交互控件1)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.7,ss.悬浮窗交互控件7)
+  gvs(sss.悬浮窗,悬浮窗.1,ss.悬浮窗控件1)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.2,ss.悬浮窗交互控件2)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.3,ss.悬浮窗交互控件3)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.4,ss.悬浮窗交互控件4)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.6,ss.悬浮窗交互控件6)
+  swh("pxztl",ss.悬浮窗pxztl)
+  us(ss.悬浮窗交互控件5,"width",-1)
+  us(ss.悬浮窗交互控件5,"height",-1)
+  us(ss.悬浮窗交互控件11,"width",-1)
+  us(ss.悬浮窗交互控件11,"height",-1)
+  us(ss.悬浮窗交互控件1,"width",-1)
+  us(ss.悬浮窗交互控件1,"height",-1)
+  us(ss.悬浮窗交互控件7,"visibility","gone") 
+  us(ss.悬浮窗交互控件2,"visibility","gone") 
+  us(ss.悬浮窗交互控件3,"visibility","gone") 
+  us(ss.悬浮窗交互控件4,"visibility","gone") 
+  us(ss.悬浮窗交互控件6,"visibility","gone") 
+  //uxf(sss.悬浮窗交互组件)
+  uxf(sss.悬浮窗交互组件,"set",sss.悬浮窗xxx,sss.悬浮窗yyy,-1,-1,"top|left")
+}
+
+else f(st_eA == 1)
+{
+  
+  //us(sss.悬浮窗交互组件,"x",ss.悬浮窗xxx)
+  //us(sss.悬浮窗交互组件,"y",ss.悬浮窗yyy)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.5,ss.悬浮窗交互控件5)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.1,ss.悬浮窗交互控件1)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.7,ss.悬浮窗交互控件7)
+  gvs(sss.悬浮窗,悬浮窗.1,ss.悬浮窗控件1)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.2,ss.悬浮窗交互控件2)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.3,ss.悬浮窗交互控件3)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.4,ss.悬浮窗交互控件4)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.11,ss.悬浮窗交互控件11)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.8,ss.悬浮窗交互控件8)
+  gvs(sss.悬浮窗交互组件,悬浮窗交互组件.6,ss.悬浮窗交互控件6)
+  swh("pxztl",ss.悬浮窗pxztl)
+  us(ss.悬浮窗交互控件5,"width",462)
+  us(ss.悬浮窗交互控件5,"height",85)
+  
+  /.
+  f(ss.悬浮窗要不要85 &gt; sss.悬浮窗yyy)
+  {
+  us(ss.悬浮窗交互控件11,"width",802)
+  us(ss.悬浮窗交互控件11,"height",736)
+  us(ss.悬浮窗交互控件8,"height",85)
+  us(ss.悬浮窗交互控件7,"height",650)
+  syso("pass")
+  }
+  else
+  {
+  us(ss.悬浮窗交互控件11,"width",802)
+  us(ss.悬浮窗交互控件11,"height",687)
+  us(ss.悬浮窗交互控件8,"height",37)
+  us(ss.悬浮窗交互控件7,"height",602)
+  syso("over")
+  }
+  ./
+  
+  us(ss.悬浮窗交互控件1,"width",802)
+  us(ss.悬浮窗交互控件1,"height",85)
+  us(ss.悬浮窗交互控件7,"visibility","visible") 
+  us(ss.悬浮窗交互控件2,"visibility","visible") 
+  us(ss.悬浮窗交互控件3,"visibility","visible") 
+  us(ss.悬浮窗交互控件4,"visibility","visible") 
+  us(ss.悬浮窗交互控件6,"visibility","visible") 
+  uxf(sss.悬浮窗交互组件)
+  uxf(sss.悬浮窗交互组件,"set",sss.悬浮窗xxx,sss.悬浮窗yyy,-2,-2,"top|left")
+}
+
+else f(st_eA == 2)
+{
+  f(ss.悬浮窗??? &gt; 802 && ss.悬浮窗rrr &gt; 85)
+  {
+  s(st_eX-ss.悬浮窗ex-85,sss.悬浮窗xxx)
+  s(st_eY-ss.悬浮窗ey,sss.悬浮窗yyy)
+  us(sss.悬浮窗,"x",sss.悬浮窗xxx)
+  us(sss.悬浮窗,"y",sss.悬浮窗yyy)
+  uxf(sss.悬浮窗)
+  //uxf(sss.悬浮窗,"set",sss.悬浮窗xxx,sss.悬浮窗yyy,-2,-2,"top|left")
+  }
+  else
+  {
+    s(ss.悬浮窗???+st_eX,ss.悬浮窗???)
+    s(ss.悬浮窗rrr+st_eY,ss.悬浮窗rrr)
+  }
+}
+
+//by;yuhang0000</eventItme></event>
+</View>
+<View id="18" did="5" type="TextView">
+<ppt>width=-1
+height=-1
+text=Hyper furball
+textColor=#00000000
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="RelativeLayout">
+<ppt>width=85
+height=85
+BackgroundColor=#ccccff00</ppt>
+<event><eventItme type="touchmonitor">[true]
+gvs(sss.悬浮窗,悬浮窗.9,控件9)
+f(st_eA == 2)
+{
+  us(控件9,"background","#bbbbbbbb")
+}
+else f(st_eA == 1)
+{
+  us(控件9,"background","through")
+}</eventItme></event>
+</View>
+<View id="3" did="1" type="RelativeLayout">
+<ppt>width=85
+height=85
+BackgroundColor=#cc00ccff</ppt>
+<event><eventItme type="touchmonitor">[true]
+gvs(sss.悬浮窗,悬浮窗.10,控件10)
+f(st_eA == 2)
+{
+  us(控件10,"background","#bbbbbbbb")
+}
+else f(st_eA == 1)
+{
+  us(控件10,"background","through")
+  f(sss.悬浮窗_最大化 == true)
+  {
+    sss 悬浮窗_最大化 = false
+    us(控件10,"src","@Gui/最大化.png")
+  }
+  else
+  {
+    sss 悬浮窗_最大化 = true
+    us(控件10,"src","@Gui/活动窗口.png")
+  }
+}</eventItme></event>
+</View>
+<View id="4" did="1" type="RelativeLayout">
+<ppt>width=85
+height=85
+BackgroundColor=#ccff0000</ppt>
+<event><eventItme type="touchmonitor">[true]
+gvs(sss.悬浮窗,悬浮窗.11,控件11)
+f(st_eA == 2)
+{
+  us(控件11,"background","#bbff0000")
+}
+else f(st_eA == 1)
+{
+  us(控件11,"background","through")
+  uxf(sss.悬浮窗,"del")
+  uxf(sss.悬浮窗交互组件,"del")
+  us(4,"text","状态:已关闭窗口")
+  us(5,"text","启动")
+  us(12,"text","显示交互组件布局")
+  sss 悬浮窗交互组件状态 = false
+  sss 悬浮窗状态 = false
+}</eventItme></event>
+</View>
+<View id="7" did="11" type="RelativeLayout">
+<ppt>width=802
+height=602
+background=#228b6f6f</ppt>
+<event></event>
+</View>
+<View id="10" did="7" type="RelativeLayout">
+<ppt>width=802
+height=602
+padding=1
+background=#cc999999</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="LinearLayout">
+<ppt>width=802
+height=37
+orientation=vertical
+gravity=center
+background=#aa0053d7
+layout_marginTop=565</ppt>
+<event><eventItme type="touchmonitor">[true]
+f(st_eA == 0)
+{
+  ss 悬浮窗大小xxx = st_rX
+  ss 悬浮窗大小yyy =st_rY
+}
+else
+{
+  s(st_rX+ss.悬浮窗大小xxx,ss.悬浮窗大小xxx)
+  s(st_rY+ss.悬浮窗大小yyy,ss.悬浮窗大小yyy)
+  //x轴
+  //不干了(ﾉ｀⊿´)ﾉ
+}</eventItme></event>
+</View>
+<View id="12" did="7" type="ScrollView">
+<ppt>width=400
+height=344
+background=#32f269cd
+layout_marginTop=-344</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=400
+height=344
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=400
+height=85
+text=   
+layout_marginTop=1
+background=#16ffe310</ppt>
+<event><eventItme type="touchmonitor">[true]
+f(st_eA == 2)
+{
+  us(13,"background","#bbbbbbbb")
+}
+else f(st_eA == 1)
+{
+  us(13,"background","#ffffff")
+}</eventItme></event>
+</View>
+<View id="15" did="13" type="TextView">
+<ppt>width=400
+height=85
+text=   
+background=#31fafe19
+layout_marginTop=1</ppt>
+<event><eventItme type="touchmonitor">[true]
+f(st_eA == 2)
+{
+  us(15,"background","#bbbbbbbb")
+}
+else f(st_eA == 1)
+{
+  us(15,"background","#ffffff")
+}</eventItme></event>
+</View>
+<View id="16" did="13" type="TextView">
+<ppt>width=400
+height=85
+text=   
+layout_marginTop=1
+background=#2f00ff33</ppt>
+<event><eventItme type="touchmonitor">[true]
+f(st_eA == 2)
+{
+  us(16,"background","#bbbbbbbb")
+}
+else f(st_eA == 1)
+{
+  us(16,"background","#ffffff")
+}</eventItme></event>
+</View>
+<View id="17" did="13" type="TextView">
+<ppt>width=400
+height=85
+text=   
+layout_marginTop=1
+background=#3fff0000</ppt>
+<event><eventItme type="touchmonitor">[true]
+gvs(sss.悬浮窗,悬浮窗.17,控件17)
+f(st_eA == 2)
+{
+  us(控件17,"background","#bbbbbbbb")
+}
+else f(st_eA == 1)
+{
+  sss 悬浮窗_图标菜单 = false
+  us(控件17,"background","#ffffff")
+  //us(控件11,"background","through")
+  uxf(sss.悬浮窗,"del")
+  uxf(sss.悬浮窗交互组件,"del")
+  us(4,"text","状态:已关闭窗口")
+  us(5,"text","启动")
+  us(12,"text","显示交互组件布局")
+  sss 悬浮窗交互组件状态 = false
+  sss 悬浮窗状态 = false
+}</eventItme></event>
+</View>
+<UIEventset></UIEventset>
