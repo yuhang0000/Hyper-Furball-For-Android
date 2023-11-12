@@ -819,7 +819,7 @@ padding=4</ppt>
 <event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
 f(ss.点唱机_m1 != true)
 {
-bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Meow！",sss.m_点唱机)
+bfm("%HyperFurball/.data/media/Meow！",sss.m_点唱机)
 bfms(sss.m_点唱机, "sl", true)
 ss 点唱机_m1 = true
 ss 点唱机_m2 = false
@@ -882,7 +882,7 @@ padding=4</ppt>
 <event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
 f(ss.点唱机_m2 != true)
 {
-bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Once Upon a Time",sss.m_点唱机)
+bfm("%HyperFurball/.data/media/Once Upon a Time",sss.m_点唱机)
 bfms(sss.m_点唱机, "sl", true)
 ss 点唱机_m1 = false
 ss 点唱机_m2 = true
@@ -945,7 +945,7 @@ padding=4</ppt>
 <event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
 f(ss.点唱机_m3 != true)
 {
-bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Whole New World",sss.m_点唱机)
+bfm("%HyperFurball/.data/media/Whole New World",sss.m_点唱机)
 bfms(sss.m_点唱机, "sl", true)
 ss 点唱机_m1 = false
 ss 点唱机_m2 = false
@@ -1008,7 +1008,7 @@ padding=4</ppt>
 <event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
 f(ss.点唱机_m4 != true)
 {
-bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Search the Ruins",sss.m_点唱机)
+bfm("%HyperFurball/.data/media/Search the Ruins",sss.m_点唱机)
 bfms(sss.m_点唱机, "sl", true)
 ss 点唱机_m1 = false
 ss 点唱机_m2 = false
@@ -1071,7 +1071,7 @@ padding=4</ppt>
 <event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
 f(ss.点唱机_m5 != true)
 {
-bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Starry Night",sss.m_点唱机)
+bfm("%HyperFurball/.data/media/Starry Night",sss.m_点唱机)
 bfms(sss.m_点唱机, "sl", true)
 ss 点唱机_m1 = false
 ss 点唱机_m2 = false
@@ -1134,7 +1134,7 @@ padding=4</ppt>
 <event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
 f(ss.点唱机_m6 != true)
 {
-bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Bad Baby",sss.m_点唱机)
+bfm("%HyperFurball/.data/media/Bad Baby",sss.m_点唱机)
 bfms(sss.m_点唱机, "sl", true)
 ss 点唱机_m1 = false
 ss 点唱机_m2 = false
@@ -1197,7 +1197,7 @@ padding=4</ppt>
 <event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
 f(ss.点唱机_m7 != true)
 {
-bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Cat Napping",sss.m_点唱机)
+bfm("%HyperFurball/.data/media/Cat Napping",sss.m_点唱机)
 bfms(sss.m_点唱机, "sl", true)
 ss 点唱机_m1 = false
 ss 点唱机_m2 = false
@@ -1260,7 +1260,7 @@ padding=4</ppt>
 <event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
 f(ss.点唱机_m8 != true)
 {
-bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Hyper Furball",sss.m_点唱机)
+bfm("%HyperFurball/.data/media/Hyper Furball",sss.m_点唱机)
 bfms(sss.m_点唱机, "sl", true)
 ss 点唱机_m1 = false
 ss 点唱机_m2 = false
@@ -1323,7 +1323,7 @@ padding=4</ppt>
 <event><eventItme type="touchmonitor">bfms(sss.m_点唱机,"sp")
 f(ss.点唱机_m9 != true)
 {
-bfm("%/storage/emulated/0/iApp/ProjectApp/com.yuhang.HyperFurball/Data/Media/Happy Cat",sss.m_点唱机)
+bfm("%HyperFurball/.data/media/Happy Cat",sss.m_点唱机)
 bfms(sss.m_点唱机, "sl", true)
 ss 点唱机_m1 = false
 ss 点唱机_m2 = false
@@ -1424,7 +1424,7 @@ scrollbars=none</ppt>
 <View id="140" did="141" type="TextView">
 <ppt>width=-1
 height=-1
-text=我真的为这个感到骄傲;我认为这非常适合作为游戏主题……是高能量和一个吸引人的引子!考虑到在主菜单中实际上没有什么可玩的，groovy(格鲁维?)的独奏部分是不必要的，但至少得做个像样的主题曲。可能这里唯一奇怪的部分是结尾，因为我需要找到一个好方法能让它循环播放。因为是在游戏开发的后半期作曲的，所以你在这里听到的猫叫效果基本上是从商店的BGM中复制粘贴过来的。
+text=我真的为这个感到骄傲;我认为这非常适合作为游戏主旋律……是高能量和一个吸引人的引子!考虑到在主菜单中实际上没有什么可玩的，groovy(格鲁维?)的独奏部分是不必要的，但至少得做个像样的主题曲。可能这里唯一奇怪的部分是结尾，因为我需要找到一个好方法能让它循环播放。因为是在游戏开发的后半期作曲的，所以你在这里听到的猫叫效果基本上是从商店的BGM中复制粘贴过来的。
 typeface=@Fonts/JP&CN.ttf
 textSize=20
 textColor=#ffffff
@@ -1532,13 +1532,13 @@ layout_marginTop=25</ppt>
 {
 ss key_主菜单 = 1
 dhas(dh, 2, "alpha", 1,0)
-dh(dh, "duration", 1500)
+dh(dh, "duration", 1000)
 dh(dh, "start")
 bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
 bfms(sss.m_点唱机,"sp")
 t()
 {
-stop(2500)
+stop(1000)
 end()
 ss 退出1 = true
 uigo("menu.iyu")
@@ -1556,41 +1556,42 @@ f(play_bgm_id == 1)
 {
   us(135,"text","Meow！（标题曲）")
   us(136,"制作时间：1小时12分钟")
-  us(140,"text","我真的为这个感到骄傲;我认为这非常适合作为游戏主题……是高能量和一个吸引人的引子!考虑到在主菜单中实际上没有什么可玩的，groovy(格鲁维?)的独奏部分是不必要的，但至少得做个像样的主题曲。可能这里唯一奇怪的部分是结尾，因为我需要找到一个好方法能让它循环播放。因为是在游戏开发的后半期作曲的，所以你在这里听到的猫叫效果基本上是从商店的BGM中复制粘贴过来的。")
+  us(140,"text","我真的为这个感到骄傲;我认为这非常适合作为游戏主旋律……是高能量和一个吸引人的引子!考虑到在主菜单中实际上没有什么可玩的，groovy(格鲁维?)的独奏部分是不必要的，但至少得做个像样的主题曲。可能这里唯一奇怪的部分是结尾，因为我需要找到一个好方法能让它循环播放。因为是在游戏开发的后半期作曲的，所以你在这里听到的猫叫效果基本上是从商店的BGM中复制粘贴过来的。")
 }
 
 f(play_bgm_id == 2)
 {
   us(135,"text","Once Upon a Time（故事引入BGM）")
   us(136,"text","制作时间：15分钟")
-  us(140,"text","我只是需要一个听起来像摇篮曲的东西作为可爱又平和的故事的做介绍。所以，我从一个标准序列开始，从那里开始就很简单了。我考虑过添加更多内容，但最终决定不这么做。这很简单，而且很有效!再说，你到底要花多长时间看这篇报道?这首歌，就像几乎所有其他歌曲一样，在主导音出现后，以“Hyper Furball”为主要主题。")
+  us(140,"text","我只是需要一个听起来像摇篮曲的东西作为可爱又平和的故事的做介绍。所以，我从一个标准序列开始，从那里开始就很简单了。我考虑过添加更多内容，但最终决定不这么做。这很简单，而且很有效!再说，你到底要花多长时间看这篇报道?这首歌，就像几乎所有其他歌曲一样，在主导音出现后，以“Hyper Furball”为主要主题。")
 }
 
 f(play_bgm_id == 3)
 {
   us(135,"text","Whole New World（第一阶段BGM）")
   us(136,"text","制作时间：1小时25分钟")
-  us(140,"text","这是我在写完“Hyper Furball”之后写的。我真的很喜欢在不同的游戏配乐中出现重复的旋律主题，所以我在创作这首配乐时一直牢记这一点。在这种情况下，这里的主副歌使用了与“Hyper Furball”开头相同的旋律，这也出现在配乐的其余部分。这首歌很有趣，因为在副歌之后音景真的打开了，气氛从轻松愉快变成了非常广阔和广阔。我没打算这么做……就这么发生了。其实我不太喜欢这首歌的开头介绍……我觉得这在进入主题之前浪费了太多时间（这是第一个关卡主题，第一印象很重要！），但最终我决定保留它，因为它通常会在你阅读“游玩教程”时播放。")}
+  us(140,"text","这是我在写完“Hyper Furball”之后写的。我真的很喜欢在不同的游戏配乐中出现重复的旋律，所以我在创作这首配乐时一直牢记这一点。在这种情况下，这里的主副歌使用了与“Hyper Furball”开头相同的旋律，这也出现在配乐的其余部分。这首歌很有趣，因为在副歌之后音景真的打开了，气氛从轻松愉快变成了非常广阔和广阔。我没打算这么做……就这么发生了。其实我不太喜欢这首歌的开头介绍……我觉得这在进入主题之前浪费了太多时间（这是第一个关卡主题，第一印象很重要！），但最终我决定保留它，因为它通常会在你阅读“游玩教程”时播放。")
+}
 
 f(play_bgm_id == 4)
 {
   us(135,"text","Search the Ruins（第二阶段BGM）")
   us(136,"text","制作时间：47分钟")
-  us(140,"text","我是在xellaya画完第二关卡场景的背景后写的这首歌——它有一种在东方庭园的感觉，所以我试着用五声复调来配合它。我认为这很适合作为第二阶段的主题，因为它有点黑暗，有点时髦——我们正在建立兴趣。我最后在这首歌的前半段没有低音线，这有一个很好的效果。然后我们进入超级戏剧性的部分，其中…就这样发生了。我真的不知道它是否适合一款关于一只打败婴儿和蘑菇的超级小猫的游戏，但「嘿，我试过了，好吗？」\n当然，在第三小节的最后加上了“Hyper Furball”的题目。")
+  us(140,"text","我是在xellaya画完第二关卡场景的背景后写的这首歌——它有一种在东方庭园的感觉，所以我试着用五声复调来配合它。我认为这很适合作为第二阶段的主题，因为它有点黑暗，有点时髦——我们正在建立兴趣。我最后在这首歌的前半段没有低音线，这有一个很好的效果。然后我们进入超级戏剧性的部分，其中…就这样发生了。我真的不知道它是否适合一款关于一只打败婴儿和蘑菇的超级小猫的游戏，但「嘿，我试过了，好吗？」\n当然，在第三小节的最后加上了“Hyper Furball”的旋律。")
 }
 
 f(play_bgm_id == 5)
 {
   us(135,"text","Starry Night（第三阶段BGM）")
   us(136,"text","制作时间：49分钟")
-  us(140,"text","第三组背景图像更暗，有星星和夜晚的背景，所以我从一个我认为很适合的铃声开始。我决定用一种恍惚的方式来处理这首歌，并设置了一个四层拍子。我认为这是可行的，因为这是最后一个阶段的主题，所以最好有一些向前驱动的动作。它有一种非常高亢和开放的声音。\n然后...... 你注意到这里的“Hyper Furball”主题了吗?")
+  us(140,"text","第三组背景图像更暗，有星星和夜晚的背景，所以我从一个我认为很适合的铃声开始。我决定用一种恍惚的方式来处理这首歌，并设置了一个四层拍子。我认为这是可行的，因为这是最后一个阶段的主题，所以最好有一些向前驱动的动作。它有一种非常高亢和开放的声音。\n然后...... 你注意到这里的“Hyper Furball”旋律了吗?")
 }
 
 f(play_bgm_id == 6)
 {
   us(135,"text","Bad Baby（打BOSS的BGM）")
   us(136,"text","制作时间：35分钟")
-  us(140,"text","在这一点上，我们开始没有时间来继续编写了。我甚至在考虑是否要加入boss战斗，因为我们只有几个小时的时间去完成它。我以一个非常经典的“咚咚”主题开始，然后我用一个典型的“邪恶”和弦来确定基调。我使用了“Hyper Furball”主题，就像我在“Search the Ruins”这个BGM中使用的一样。")
+  us(140,"text","在这一点上，我们开始没有时间来继续编写了。我甚至在考虑是否要加入boss战斗，因为我们只有几个小时的时间去完成它。我以一个非常经典的“咚咚”声开始，然后我用一个典型的“邪恶”和弦来确定基调。我使用了“Hyper Furball”旋律，就像我在“Search the Ruins”这个BGM中使用的一样。")
 }
 
 f(play_bgm_id == 7)
@@ -1676,7 +1677,7 @@ t()
   ufnsui()
   {
     dhas(dh, 2, "alpha",0,1)
-    dh(dh, "duration", 2000)
+    dh(dh, "duration", 1000)
     dh(dh, "start")
     us(2,"visibility","visible")
   }
@@ -2319,13 +2320,13 @@ t()
 {
 ss key_主菜单 = 1
 dhas(dh, 2, "alpha", 1,0)
-dh(dh, "duration", 1500)
+dh(dh, "duration", 1000)
 dh(dh, "start")
 bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
 bfms(sss.m_点唱机,"sp")
 t()
 {
-stop(2500)
+stop(1000)
 end()
 ss 退出1 = true
 uigo("menu.iyu")

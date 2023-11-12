@@ -4,14 +4,11 @@ height=-1
 orientation=vertical
 gravity=center
 background=black</ppt>
-<event></event>
-</View>
-<View id="2" did="1" type="RelativeLayout">
-<ppt>width=1440
-height=1080
-focusable=false
-visibility=gone</ppt>
-<event><eventItme type="touchmonitor">f(ss.开头 == null)
+<event><eventItme type="touchmonitor">f(sss.set_顶部区域显示 == null)
+{
+  sss set_顶部区域显示 = false
+}
+f(ss.开头 == null)
 {
   ss 开头 = 1
   dhas(dh,6,"alpha",1,0)
@@ -41,7 +38,7 @@ else f(ss.开头 == 3)
   dhas(dh,3,"alpha",1,0)
   dh(dh, "duration",1000)
   dh(dh, "start")
-  bfm("%HyperFurball/.data/media/Gui/Confirm",sfx)
+  bfm("%HyperFurball/.data/media/Gui/Confirm",ss.sfx1)
   bfms(sss.m_开头,"sp")
   t()
   {
@@ -51,7 +48,7 @@ else f(ss.开头 == 3)
     dh(dh, "duration", 1000)
     dh(dh, "start")
     }
-    stop(2500)
+    stop(1000)
     ufnsui()
     {
       uigo("playing.iyu")
@@ -59,6 +56,13 @@ else f(ss.开头 == 3)
     }
   }
 }</eventItme></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=1440
+height=1080
+focusable=false
+visibility=gone</ppt>
+<event></event>
 </View>
 <View id="3" did="2" type="ImageView">
 <ppt>width=-1
@@ -84,6 +88,20 @@ height=-1
 src=%HyperFurball/.data/Image/StoryWorld/StoryWorld_CN_1.png</ppt>
 <event></event>
 </View>
+<View id="7" did="2" type="TextView">
+<ppt>width=-1
+height=-1
+text=轻触以继续
+typeface=@Fonts/JP&CN.ttf
+textSize=20
+textColor=#ffffff
+shadowColor=#000000
+shadowRadius=8
+gravity=center_horizontal|bottom
+focusable=false
+paddingBottom=15</ppt>
+<event></event>
+</View>
 <UIEventset><eventItme type="loading">//初始化
 lan(0)
 uycl("#00000000", false)
@@ -106,7 +124,7 @@ t()
   {
     us(2,"visibility","visible")
     dhas(dh, 2,"alpha",0,1)
-    dh(dh, "duration", 2000)
+    dh(dh, "duration", 1000)
     dh(dh, "start")
   }
 }</eventItme><eventItme type="stop">bfms(sss.m_开头,"pe")</eventItme><eventItme type="restart">bfms(sss.m_开头,"st")</eventItme></UIEventset>

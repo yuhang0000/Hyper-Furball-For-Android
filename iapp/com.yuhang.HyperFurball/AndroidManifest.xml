@@ -2,16 +2,13 @@
 <title>Hyper Furball</title>
 <icon>icon.png</icon>
 <packageName>com.yuhang.HyperFurball</packageName>
-<versionName>0.0.8</versionName>
+<versionName>0.0.9</versionName>
 <versionint>1</versionint>
 <sdk>15</sdk>
 <yuv>3</yuv>
 
 <remark>by:yuhang0000</remark>
-<manifest><uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/></manifest>
-<Permissions>android.permission.SYSTEM_ALERT_WINDOW
-android.permission.READ_EXTERNAL_STORAGE
-android.permission.WRITE_EXTERNAL_STORAGE
-android.permission.INTERNET</Permissions>
+<manifest></manifest>
+<Permissions>android.permission.SYSTEM_ALERT_WINDOW</Permissions>
 <createTime>2023-05-19 05:34:26</createTime>
 <upTime>2023-05-19 05:34:26</upTime>

@@ -237,10 +237,15 @@ text=继续
 gravity=center
 textColor=#ffffff
 textSize=20</ppt>
-<event><eventItme type="clicki">us(7,"visibility","visible")
+<event><eventItme type="clicki">/.
+us(7,"visibility","visible")
 us(27,"visibility","gone")
 us(5,"text","Click to start")
-us(4,"text","戳一下就开始了")</eventItme></event>
+us(4,"text","戳一下就开始了")
+./
+ss 该界面已挂_mian = 1
+us(27,"visibility","gone")
+us(31,"text","开始")</eventItme></event>
 </View>
 <View id="32" did="29" type="TextView">
 <ppt>width=400
@@ -249,38 +254,11 @@ text=重试
 gravity=center
 textColor=#ffffff
 textSize=20</ppt>
-<event><eventItme type="clicki">us(27,"visibility","gone")
-//解压资源
-fuzs("@Data.zip","%HyperFurball/.data/",true,zip)
-//更新配置文档
-fr("@Setting.ini",Setting)
-time(5,playtime)
-ss("&lt;首次游玩&gt;" + playtime + "&lt;首次游玩/&gt;",playtime)
-sr(Setting,"&lt;首次游玩&gt;&lt;首次游玩/&gt;",playtime,Setting)
-ss("&lt;版本&gt;" + sss.版本 + "&lt;版本/&gt;",ver)
-sr(Setting,"&lt;版本&gt;&lt;版本/&gt;",ver,Setting)
-sss Setting = Setting
-fe("%HyperFurball/.data/Image/Furball/Walk.gif",areyouok?)
-f(areyouok? == true)
-{
-us(18,"src","%HyperFurball/.data/Image/Furball/Walk.gif")
-us(16,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/1.png")
-us(17,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile3/2.png")
-us(13,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/1.png")
-us(14,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/2.png")
-us(10,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/1.png")
-us(11,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/2.png")
-ss key = true
-us(7,"visibility","visible")
-us(5,"text","Click to start")
-us(4,"text","戳一下就开始了")
-fw("%HyperFurball/Setting.ini",Setting)
-}
-else
-{
-us(27,"visibility","visible")
-us(26,"text","抱歉，遇到了错误的信息，你可能需要重新运行此软件。\n错误信息：无法释放资源\n解决措施：检查你是否授予储存权限")
-}</eventItme></event>
+<event><eventItme type="clicki">end()
+ss 该界面已挂_mian = null
+uigo("mian.iyu")
+//tw(ss.该界面已挂_mian)
+urvw(44)</eventItme></event>
 </View>
 <View id="31" did="6" type="TextView">
 <ppt>width=-2
@@ -294,6 +272,7 @@ us(4,"visibility","gone")
 dhas(dh,3,"alpha",1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1)
 dh(dh,"duration",3800)
 dh(dh,"start")
+//tw(ss.该界面已挂_mian)
 t()
 {
   stop(200)
@@ -336,9 +315,10 @@ t()
     dh(dh6,"start")
   }
 }
+us(19,"layout_marginleft",-280)
 t()
 {
-  w(ss.持续隐藏状态栏 != false)
+  w(ss.该界面已挂_mian != null)
   {
     ug(19,"layout_marginleft",xx)
     s(xx+10,xxx)
@@ -347,6 +327,7 @@ t()
       us(19,"layout_marginleft",xxx)
     }
     stop(15)
+    syso(xxx)
   }
 }
 t()
@@ -354,11 +335,18 @@ t()
   stop(3800)
   ufnsui()
   {
-    f(ss.该界面已挂_mian != true)
+    f(ss.该界面已挂_mian == true)
     {
-    uigo("menu.iyu")
-    //end()
-    ss 持续隐藏状态栏 == false
+      //tw(ss.该界面已挂_mian)
+      ss 该界面已挂_mian = null
+      tw("oops！用户结束了此界面。")
+    }
+    else
+    {
+      ss 该界面已挂_mian = null
+      uigo("menu.iyu")
+      //end()
+      ss 持续隐藏状态栏 == false
     }
   }
 }
@@ -372,13 +360,142 @@ t()
   }
 }</eventItme></event>
 </View>
+<View id="44" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=bug难修
+textSize=0
+visibility=gone</ppt>
+<event><eventItme type="ontextchanged">ss 该界面已挂_mian = true</eventItme></event>
+</View>
+<View id="33" did="6" type="RelativeLayout">
+<ppt>ps=OOBE
+width=-1
+height=-1
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="42" did="33" type="ScrollView">
+<ppt>ps=介绍
+width=-1
+height=-1
+focusable=false
+overScrollMode=never
+scrollbars=none
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="36" did="42" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=欢迎。\n这是Hyper Furball的安卓版本，基于iapp编译，由于与原版Flash所运行的架构不一样，移植至安卓相当于从头开始写游戏，工程量太大，\n(•́ω•̀ ٥)\n但尽量保持原版原汁原味的玩法与内容，顺便做本土化工作，祝您玩的开心？\n \n一个友善的提醒，本游戏没有广告和付费内容，如果你碰到了，那就说明你下载了盗版，不保证它是否还带有病毒，所以请尽量在我的Github主页上下载。\n \n另外有能力的话，尽量在原作者的官网上支持原版。\n \n原作者:DDRkirby(ISQ)和xellaya\n日文翻译:A-zu-ra\n中文翻译:yuhang0000\n移植:yuhang0000\n \nFirst build time:2023-05-19 05:34:26
+textColor=#ffffff
+textSize=18
+typeface=@Fonts/JP&CN.ttf
+padding=20</ppt>
+<event></event>
+</View>
+<View id="38" did="36" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="43" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=&lt;&lt;&lt;语言
+textColor=#ffffff
+typeface=@Fonts/JP&CN.ttf
+textSize=18
+padding=40
+focusable=false</ppt>
+<event><eventItme type="clicki">bfm("%HyperFurball/.data/Media/Gui/Levelup_Confirm",sss.m_sfx)
+us(42,"visibility","gone")
+us(34,"visibility","visible")</eventItme></event>
+</View>
+<View id="39" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=访问DDRkirby(ISQ)博客
+textColor=#ffffff
+typeface=@Fonts/JP&CN.ttf
+textSize=18
+padding=40
+focusable=false</ppt>
+<event><eventItme type="clicki">bfm("%HyperFurball/.data/Media/Gui/Levelup_Confirm",sss.m_sfx)
+hws("https://www.ddrkirby.com")</eventItme></event>
+</View>
+<View id="40" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=访问Github项目
+textColor=#ffffff
+typeface=@Fonts/JP&CN.ttf
+textSize=18
+padding=40
+focusable=false</ppt>
+<event><eventItme type="clicki">bfm("%HyperFurball/.data/Media/Gui/Levelup_Confirm",sss.m_sfx)
+hws("https://github.com/yuhang0000/Hyper-Furball-For-Android/")</eventItme></event>
+</View>
+<View id="41" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=继续&gt;&gt;&gt;
+textColor=#ffffff
+typeface=@Fonts/JP&CN.ttf
+textSize=18
+padding=40
+focusable=false</ppt>
+<event><eventItme type="clicki">f(ss.mian_start_oobe == 1)
+{
+us(33,"visibility","gone")
+us(31,"text","开始")
+}
+else
+{
+  ss mian_start_oobe = 1
+  us(37,"text","提示：\n在这里建议您把自动旋转打开，因为这游戏在每当切入下一界面时会鬼畜一下。\n \n第一次进入可能会显示获取应用列表，在这里我建议关闭，因为我所使用的编译软件无法关闭此Activity，我也不保证启用的后果，反正获取权限我也做不了什么，在此还是建议关闭。\n \n权限获取列表：\n \n•android.permission.SYSTEM_ALERT_WINDOW\n&lt;显示系统界面&gt;\n \n•android.permission.READ_EXTERNAL_STORAGE\n&lt;允许读取文件&gt;\n \n•android.permission.WRITE_EXTERNAL_STORAGE\n&lt;允许写入文件&gt;\n \n•android.permission.MANAGE_EXTERNAL_STORAGE\n（不建议）&lt;允许所有文件访问权限&gt;（仅限安卓11以上，仅当无法读取存档时启用）\n \n•android.permission.QUERY_ALL_PACKAGES\n（不允许）&lt;获取所有应用列表&gt;（我用不到，真的别启用）\n \n•android.permission.INTERNET\n（不允许）&lt;访问网络连接&gt;（我用不到，真的别启用）\n \n•android.permission.REQUEST_INSTALL_PACKAGES\n（不允许）&lt;请求安装应用包&gt;（我用不到，真的别启用）\n \n----------------------------------------------\n最后祝您玩的开心     (◦˙▽˙◦)")
+  bfm("%HyperFurball/.data/Media/Gui/Levelup_Confirm",sss.m_sfx)
+}</eventItme></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>ps=语言
+width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="TextView">
+<ppt>width=300dp
+height=-2
+text=中文
+textColor=#ffffff
+textSize=30
+typeface=@Fonts/JP&CN.ttf
+padding=20
+gravity=center</ppt>
+<event><eventItme type="clicki">bfm("%HyperFurball/.data/Media/Gui/Levelup_Confirm",sss.m_sfx)
+us(42,"visibility","visible")
+us(34,"visibility","gone")</eventItme></event>
+</View>
 <UIEventset><eventItme type="loading">//初始化
 lan(0)
 uycl("#00000000", false)
 uycl(true)
 ushsp(true)
+//tw(ss.该界面已挂_mian)
+ss 该界面已挂_mian = 1
 
-sss 版本 = "0.0.8"
+sss 版本 = "0.0.9"
 //是否初次使用
 fe("%HyperFurball/Setting.ini",areyouok)
 f(areyouok == false)
@@ -404,9 +521,13 @@ f(areyouok == false)
     us(10,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/1.png")
     us(11,"src","%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile1/2.png")
     ss key = true
-    us(7,"visibility","visible")
-    us(5,"text","Click to start")
-    us(4,"text","戳一下就开始了")
+    //us(7,"visibility","visible")
+    //us(5,"text","Click to start")
+    //us(4,"text","戳一下就开始了")
+    us(5,"text","")
+    us(4,"text","")
+    us(33,"visibility","visible")
+    //us(3,"visibility","gone")
     fw("%HyperFurball/Setting.ini",sss.Setting)
   }
   else
@@ -430,6 +551,7 @@ else
   sj(sss.Setting,"&lt;背景优化&gt;","&lt;背景优化/&gt;",sss.set_背景优化)
   sj(sss.Setting,"&lt;载入等待时间&gt;","&lt;载入等待时间/&gt;",sss.set_载入等待时间)
   sj(sss.Setting,"&lt;随机背景切换时间&gt;","&lt;随机背景切换时间/&gt;",sss.set_随机背景切换时间)
+  sj(sss.Setting,"&lt;顶部区域显示&gt;","&lt;顶部区域显示/&gt;",sss.set_顶部区域显示)
   f(ver == sss.版本)
   {
     ss key = true
@@ -491,7 +613,7 @@ uycl(true)
 }
 }
 }
-</eventItme><eventItme type="restart">end()</eventItme><eventItme type="upkey">f(st_kC == 62 || st_kC == 66 || st_kC == 149)
+</eventItme><eventItme type="upkey">f(st_kC == 62 || st_kC == 66 || st_kC == 149)
 {
 f(ss.key == true)
 {
@@ -499,4 +621,8 @@ f(ss.key == true)
   us(31,"text","开始")
   
 }
-}</eventItme><eventItme type="destroy">ss 该界面已挂_mian = true</eventItme></UIEventset>
+}</eventItme><eventItme type="restart">f(ss.该界面已挂_mian == null)
+{
+  end()
+  //tw(6)
+}</eventItme><eventItme type="destroy">us(44,"text","bug难修")</eventItme></UIEventset>

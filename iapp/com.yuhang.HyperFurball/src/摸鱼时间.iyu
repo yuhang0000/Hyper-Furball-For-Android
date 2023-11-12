@@ -557,7 +557,8 @@ src=%HyperFurball/.data/Image/WorldBackground/Level1_backgroundFile2/4.png</ppt>
 height=130
 src=%HyperFurball/.data/Image/Furball/walk.gif
 layout_margintop=820
-layout_marginleft=560</ppt>
+layout_marginleft=560
+focusable=false</ppt>
 <event><eventItme type="touchmonitor">f(st_eA == 1)
 {
 
@@ -783,12 +784,12 @@ layout_marginTop=25</ppt>
 {
 ss key_主菜单 = 1
 dhas(dh, 2, "alpha", 1,0)
-dh(dh, "duration", 1500)
+dh(dh, "duration", 1000)
 dh(dh, "start")
 bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
 t()
 {
-stop(2500)
+stop(1000)
 end()
 ss 退出1 = true
 uigo("menu.iyu")
@@ -873,7 +874,7 @@ t()
   ufnsui()
   {
     dhas(dh, 2, "alpha",0,1)
-    dh(dh, "duration", 2000)
+    dh(dh, "duration", 1000)
     dh(dh, "start")
     us(2,"visibility","visible")
   }
@@ -1523,12 +1524,12 @@ t()
 {
 ss key_主菜单 = 1
 dhas(dh, 2, "alpha", 1,0)
-dh(dh, "duration", 1500)
+dh(dh, "duration", 1000)
 dh(dh, "start")
 bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
 t()
 {
-stop(2500)
+stop(1000)
 end()
 ss 退出1 = true
 uigo("menu.iyu")

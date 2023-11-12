@@ -66,10 +66,9 @@ height=1080
 src=%HyperFurball/.data/Image/Gui/WhiteImage.png</ppt>
 <event></event>
 </View>
-<View id="18" did="2" type="LinearLayout">
+<View id="18" did="2" type="RelativeLayout">
 <ppt>width=-2
 height=-2
-orientation=horizontal
 layout_marginLeft=60
 layout_marginTop=400
 visibility=gone</ppt>
@@ -89,14 +88,37 @@ src=%HyperFurball/.data/Image/Gui/MenuWorld_Cursor.png</ppt>
 <event></event>
 </View>
 <View id="12" did="18" type="LinearLayout">
-<ppt>width=-2
-height=-2
+<ppt>width=500
+height=500
 orientation=vertical
-layout_marginLeft=20</ppt>
-<event></event>
+layout_marginLeft=0
+background=#00000000
+focusable=false</ppt>
+<event><eventItme type="touchmonitor">f(ss.key != false)
+{
+us(13,"typeface","sans")
+us(14,"typeface","sans")
+us(15,"typeface","sans")
+us(16,"typeface","sans")
+us(17,"typeface","sans")
+tw("oops！\n字体显示异常")
+us(13,"text","普通模式")
+us(14,"text","困难模式")
+us(15,"text","点唱机")
+us(16,"text","摸鱼时间")
+us(17,"text","设置")
+ss key1 = false
+bfm("%HyperFurball/.data/media/Gui/Pause",ss.sfx1)
+dhas(dh, 2, "alpha",1,0)
+dh(dh, "duration", 1000)
+dh(dh, "start")
+bfms(sss.m_主菜单,"sp")
+end()
+uigo("menu.iyu")
+}</eventItme></event>
 </View>
 <View id="13" did="12" type="TextView">
-<ppt>width=400
+<ppt>width=500
 height=100
 text=普通模式
 typeface=@Fonts/JP&CN.ttf
@@ -105,7 +127,8 @@ textColor=#ffffff
 shadowColor=#000000
 shadowRadius=8
 gravity=center_vertical
-focusable=false</ppt>
+focusable=false
+paddingleft=100</ppt>
 <event><eventItme type="touchmonitor">f(ss.key != false)
 {
   ss key = false
@@ -114,12 +137,12 @@ focusable=false</ppt>
   us(19,"layout_margintop",0)
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(2600)
+    stop(1000)
     ufnsui()
     {
       uigo("开头.iyu")
@@ -133,7 +156,7 @@ focusable=false</ppt>
 }</eventItme></event>
 </View>
 <View id="14" did="12" type="TextView">
-<ppt>width=400
+<ppt>width=500
 height=100
 text=困难模式
 typeface=@Fonts/JP&CN.ttf
@@ -142,7 +165,8 @@ textColor=#ffffff
 shadowColor=#000000
 shadowRadius=8
 gravity=center_vertical
-focusable=false</ppt>
+focusable=false
+paddingleft=100</ppt>
 <event><eventItme type="touchmonitor">f(ss.key != false)
 {
   ss key = false
@@ -151,12 +175,12 @@ focusable=false</ppt>
   us(19,"layout_margintop",100)
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(2600)
+    stop(1000)
     ufnsui()
     {
       uigo("开头.iyu")
@@ -170,7 +194,7 @@ focusable=false</ppt>
 }</eventItme></event>
 </View>
 <View id="15" did="12" type="TextView">
-<ppt>width=400
+<ppt>width=500
 height=100
 text=点唱机
 typeface=@Fonts/JP&CN.ttf
@@ -178,7 +202,8 @@ textSize=20
 textColor=#ffffff
 shadowColor=#000000
 shadowRadius=8
-gravity=center_vertical</ppt>
+gravity=center_vertical
+paddingleft=100</ppt>
 <event><eventItme type="touchmonitor">f(ss.key != false)
 {
   ss key = false
@@ -186,12 +211,12 @@ gravity=center_vertical</ppt>
   us(19,"layout_margintop",200)
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(2600)
+    stop(1000)
     ufnsui()
     {
       uigo("点唱机.iyu")
@@ -205,7 +230,7 @@ gravity=center_vertical</ppt>
 }</eventItme></event>
 </View>
 <View id="16" did="12" type="TextView">
-<ppt>width=400
+<ppt>width=500
 height=100
 text=摸鱼时间
 typeface=@Fonts/JP&CN.ttf
@@ -214,7 +239,8 @@ textColor=#ffffff
 shadowColor=#000000
 shadowRadius=8
 gravity=center_vertical
-focusable=false</ppt>
+focusable=false
+paddingleft=100</ppt>
 <event><eventItme type="touchmonitor">f(ss.key != false)
 {
   ss key = false
@@ -222,12 +248,12 @@ focusable=false</ppt>
   us(19,"layout_margintop",300)
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(2600)
+    stop(1000)
     ufnsui()
     {
       uigo("摸鱼时间.iyu")
@@ -241,7 +267,7 @@ focusable=false</ppt>
 }</eventItme></event>
 </View>
 <View id="17" did="12" type="TextView">
-<ppt>width=400
+<ppt>width=500
 height=100
 text=设置
 typeface=@Fonts/JP&CN.ttf
@@ -250,7 +276,8 @@ textColor=#ffffff
 shadowColor=#000000
 shadowRadius=8
 gravity=center_vertical
-focusable=false</ppt>
+focusable=false
+paddingleft=100</ppt>
 <event><eventItme type="touchmonitor">f(ss.key != false)
 {
   ss key = false
@@ -258,12 +285,12 @@ focusable=false</ppt>
   us(19,"layout_margintop",400)
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   /.dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(2600)
+    stop(1000)
     ufnsui()
     {
       uigo("摸鱼时间.iyu")
@@ -280,7 +307,7 @@ focusable=false</ppt>
 <View id="21" did="2" type="TextView">
 <ppt>width=-1
 height=-1
-text=Version:0.0.1\nProgramming and Music by DDRKirby(ISQ)\nArt by xellaya / JP translation by:A-zu-ra\nAndroid version and CN translation by yuhang0000
+text=Version:0.0.1\nProgramming and Music by DDRKirby(ISQ)\nArt by xellaya / JP translation by A-zu-ra\nAndroid version and CN translation by yuhang0000
 typeface=@Fonts/Pixel.ttf
 textSize=11
 textColor=#ffffff
@@ -410,12 +437,12 @@ f(st_kC == 62 || st_kC == 66 || st_kC == 149)
   sss 难度 = "普通"
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(2600)
+    stop(1000)
     ufnsui()
     {
       uigo("开头.iyu")
@@ -438,12 +465,12 @@ f(st_kC == 62 || st_kC == 66 || st_kC == 149)
   sss 难度 = "困难"
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(2600)
+    stop(1000)
     ufnsui()
     {
       uigo("开头.iyu")
@@ -466,12 +493,12 @@ f(st_kC == 62 || st_kC == 66 || st_kC == 149)
   sss 难度 = "困难"
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(2600)
+    stop(1000)
     ufnsui()
     {
       uigo("点唱机.iyu")
@@ -493,12 +520,12 @@ f(st_kC == 62 || st_kC == 66 || st_kC == 149)
   ss key = false
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(2600)
+    stop(1000)
     ufnsui()
     {
       uigo("摸鱼时间.iyu")
@@ -527,12 +554,12 @@ f(ss.key1 != false)
   ss key1 = false
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(3000)
+    stop(1200)
     ufnsui()
     {
       end()
@@ -553,9 +580,9 @@ utw(17301569,"更新记录",Updata,"关闭",true,v)
 break
 
 case 关于:
-utw(17301569,"关于","欢迎。\n这是Hyper Furball的安卓版本，基于iapp编译，由于与原版Flash所运行的架构不一样，移植至安卓相当于从头开始写游戏，工程量太大，\n(•́ω•̀ ٥)\n但尽量保持原版原汁原味的玩法与内容，顺便做本土化工作，祝您玩的开心？\n \n一个友善的提醒，本游戏没有广告和付费内容，如果你碰到了，那就说明你下载了盗版，不保证它是否还带有病毒，所以请尽量在我的Github主页上下载。\n \n另外有能力的话，尽量在原作者的官网上支持原版。\n \n原作者:DDRkirby(ISQ)和xellaya\n日文翻译:A-zu-ra\n中文翻译:yuhang0000\n移植:yuhang0000\n \nFirst build time:2023-05-19 05:34:26","来我的B站主页看看？","访问原作者DDRkirby(ISQ)官网","关闭",true,v)
+utw(17301569,"关于","欢迎。\n这是Hyper Furball的安卓版本，基于iapp编译，由于与原版Flash所运行的架构不一样，移植至安卓相当于从头开始写游戏，工程量太大，\n(•́ω•̀ ٥)\n但尽量保持原版原汁原味的玩法与内容，顺便做本土化工作，祝您玩的开心？\n \n一个友善的提醒，本游戏没有广告和付费内容，如果你碰到了，那就说明你下载了盗版，不保证它是否还带有病毒，所以请尽量在我的Github主页上下载。\n \n另外有能力的话，尽量在原作者的官网上支持原版。\n \n原作者:DDRkirby(ISQ)和xellaya\n日文翻译:A-zu-ra\n中文翻译:yuhang0000\n移植:yuhang0000\n \nFirst build time:2023-05-19 05:34:26","访问Github项目","访问原作者DDRkirby(ISQ)官网","关闭",true,v)
 {
-  hws("https://space.bilibili.com/291050629")
+  hws("https://github.com/yuhang0000/Hyper-Furball-For-Android/")
 }
 else
 {
@@ -572,12 +599,12 @@ f(ss.key1 != false)
   ss key1 = false
   bfm("%HyperFurball/.data/media/Gui/Player",ss.sfx1)
   dhas(dh, 2, "alpha",1,0)
-  dh(dh, "duration", 2500)
+  dh(dh, "duration", 1000)
   dh(dh, "start")
   bfms(sss.m_主菜单,"sp")
   t()
   {
-    stop(3000)
+    stop(1200)
     ufnsui()
     {
       end()
@@ -585,4 +612,5 @@ f(ss.key1 != false)
     }
   }
 }
-break</eventItme></UIEventset>
+break
+</eventItme></UIEventset>
